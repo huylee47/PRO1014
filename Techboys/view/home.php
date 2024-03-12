@@ -33,8 +33,8 @@
                                 <img src="images/char_1.png" alt="" />
                             </div>
                             <div class="char_content">
-                                <div class="char_title">Free Delivery</div>
-                                <div class="char_subtitle">from $50</div>
+                                <div class="char_title">Miễn phí vận chuyển</div>
+                               
                             </div>
                         </div>
                     </div>
@@ -46,8 +46,8 @@
                                 <img src="images/char_2.png" alt="" />
                             </div>
                             <div class="char_content">
-                                <div class="char_title">Free Delivery</div>
-                                <div class="char_subtitle">from $50</div>
+                                <div class="char_title">Đổi hàng nhanh chóng</div>
+                               
                             </div>
                         </div>
                     </div>
@@ -59,8 +59,8 @@
                                 <img src="images/char_3.png" alt="" />
                             </div>
                             <div class="char_content">
-                                <div class="char_title">Free Delivery</div>
-                                <div class="char_subtitle">from $50</div>
+                                <div class="char_title">Hoàn tiền</div>
+                             
                             </div>
                         </div>
                     </div>
@@ -72,8 +72,8 @@
                                 <img src="images/char_4.png" alt="" />
                             </div>
                             <div class="char_content">
-                                <div class="char_title">Free Delivery</div>
-                                <div class="char_subtitle">from $50</div>
+                                <div class="char_title">Bảo hành 6 tháng</div>
+                                
                             </div>
                         </div>
                     </div>
@@ -90,7 +90,7 @@
                         <!-- Deals -->
 
                         <div class="deals">
-                            <div class="deals_title">Deals of the Week</div>
+                            <div class="deals_title">Sản phẩm giảm giá sốc</div>
                             <div class="deals_slider_container">
                                 <!-- Deals Slider -->
                                 <div class="owl-carousel owl-theme deals_slider">
@@ -113,10 +113,10 @@
                                             <div class="available">
                                                 <div class="available_line d-flex flex-row justify-content-start">
                                                     <div class="available_title">
-                                                        Available: <span>6</span>
+                                                       Đã bán: <span>6</span>
                                                     </div>
                                                     <div class="sold_title ml-auto">
-                                                        Already sold: <span>28</span>
+                                                        Hàng còn: <span>28</span>
                                                     </div>
                                                 </div>
                                                 <div class="available_bar">
@@ -125,24 +125,22 @@
                                             </div>
                                             <div class="deals_timer d-flex flex-row align-items-center justify-content-start">
                                                 <div class="deals_timer_title_container">
-                                                    <div class="deals_timer_title">Hurry Up</div>
-                                                    <div class="deals_timer_subtitle">
-                                                        Offer ends in:
-                                                    </div>
+                                                    <div class="deals_timer_title">Thời gian còn lại</div>
+                                                    
                                                 </div>
                                                 <div class="deals_timer_content ml-auto">
                                                     <div class="deals_timer_box clearfix" data-target-time="">
                                                         <div class="deals_timer_unit">
                                                             <div id="deals_timer1_hr" class="deals_timer_hr"></div>
-                                                            <span>hours</span>
+                                                           
                                                         </div>
                                                         <div class="deals_timer_unit">
                                                             <div id="deals_timer1_min" class="deals_timer_min"></div>
-                                                            <span>mins</span>
+                                                            
                                                         </div>
                                                         <div class="deals_timer_unit">
                                                             <div id="deals_timer1_sec" class="deals_timer_sec"></div>
-                                                            <span>secs</span>
+                                                            
                                                         </div>
                                                     </div>
                                                 </div>
@@ -169,10 +167,10 @@
                                             <div class="available">
                                                 <div class="available_line d-flex flex-row justify-content-start">
                                                     <div class="available_title">
-                                                        Available: <span>6</span>
+                                                       Đã bán: <span>6</span>
                                                     </div>
                                                     <div class="sold_title ml-auto">
-                                                        Already sold: <span>28</span>
+                                                        Hàng còn: <span>28</span>
                                                     </div>
                                                 </div>
                                                 <div class="available_bar">
@@ -181,24 +179,22 @@
                                             </div>
                                             <div class="deals_timer d-flex flex-row align-items-center justify-content-start">
                                                 <div class="deals_timer_title_container">
-                                                    <div class="deals_timer_title">Hurry Up</div>
-                                                    <div class="deals_timer_subtitle">
-                                                        Offer ends in:
-                                                    </div>
+                                                    <div class="deals_timer_title">Thời gian còn lại</div>
+                                                    
                                                 </div>
                                                 <div class="deals_timer_content ml-auto">
                                                     <div class="deals_timer_box clearfix" data-target-time="">
                                                         <div class="deals_timer_unit">
-                                                            <div id="deals_timer2_hr" class="deals_timer_hr"></div>
-                                                            <span>hours</span>
+                                                            <div id="deals_timer1_hr" class="deals_timer_hr"></div>
+                                                           
                                                         </div>
                                                         <div class="deals_timer_unit">
-                                                            <div id="deals_timer2_min" class="deals_timer_min"></div>
-                                                            <span>mins</span>
+                                                            <div id="deals_timer1_min" class="deals_timer_min"></div>
+                                                            
                                                         </div>
                                                         <div class="deals_timer_unit">
-                                                            <div id="deals_timer2_sec" class="deals_timer_sec"></div>
-                                                            <span>secs</span>
+                                                            <div id="deals_timer1_sec" class="deals_timer_sec"></div>
+                                                            
                                                         </div>
                                                     </div>
                                                 </div>
@@ -225,10 +221,10 @@
                                             <div class="available">
                                                 <div class="available_line d-flex flex-row justify-content-start">
                                                     <div class="available_title">
-                                                        Available: <span>6</span>
+                                                       Đã bán: <span>6</span>
                                                     </div>
                                                     <div class="sold_title ml-auto">
-                                                        Already sold: <span>28</span>
+                                                        Hàng còn: <span>28</span>
                                                     </div>
                                                 </div>
                                                 <div class="available_bar">
@@ -237,24 +233,22 @@
                                             </div>
                                             <div class="deals_timer d-flex flex-row align-items-center justify-content-start">
                                                 <div class="deals_timer_title_container">
-                                                    <div class="deals_timer_title">Hurry Up</div>
-                                                    <div class="deals_timer_subtitle">
-                                                        Offer ends in:
-                                                    </div>
+                                                    <div class="deals_timer_title">Thời gian còn lại</div>
+                                                    
                                                 </div>
                                                 <div class="deals_timer_content ml-auto">
                                                     <div class="deals_timer_box clearfix" data-target-time="">
                                                         <div class="deals_timer_unit">
-                                                            <div id="deals_timer3_hr" class="deals_timer_hr"></div>
-                                                            <span>hours</span>
+                                                            <div id="deals_timer1_hr" class="deals_timer_hr"></div>
+                                                           
                                                         </div>
                                                         <div class="deals_timer_unit">
-                                                            <div id="deals_timer3_min" class="deals_timer_min"></div>
-                                                            <span>mins</span>
+                                                            <div id="deals_timer1_min" class="deals_timer_min"></div>
+                                                            
                                                         </div>
                                                         <div class="deals_timer_unit">
-                                                            <div id="deals_timer3_sec" class="deals_timer_sec"></div>
-                                                            <span>secs</span>
+                                                            <div id="deals_timer1_sec" class="deals_timer_sec"></div>
+                                                            
                                                         </div>
                                                     </div>
                                                 </div>
@@ -279,9 +273,8 @@
                             <div class="tabbed_container">
                                 <div class="tabs">
                                     <ul class="clearfix">
-                                        <li class="active">Featured</li>
-                                        <li>On Sale</li>
-                                        <li>Best Rated</li>
+                                        <li class="active">Sản phẩm</li>
+                                        
                                     </ul>
                                     <div class="tabs_line"><span></span></div>
                                 </div>
@@ -307,7 +300,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -337,7 +330,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button active">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -367,7 +360,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -399,7 +392,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -429,7 +422,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -459,7 +452,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -489,7 +482,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -519,7 +512,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -549,7 +542,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -579,7 +572,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -609,7 +602,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -639,7 +632,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -669,7 +662,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -699,7 +692,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -729,7 +722,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -759,7 +752,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -798,7 +791,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -828,7 +821,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button active">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -858,7 +851,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -890,7 +883,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -920,7 +913,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -950,7 +943,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -980,7 +973,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1010,7 +1003,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1040,7 +1033,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1070,7 +1063,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1100,7 +1093,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1130,7 +1123,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1160,7 +1153,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1190,7 +1183,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1220,7 +1213,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1250,7 +1243,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1289,7 +1282,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1319,7 +1312,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button active">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1349,7 +1342,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1381,7 +1374,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1411,7 +1404,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1441,7 +1434,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1471,7 +1464,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1501,7 +1494,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1531,7 +1524,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1561,7 +1554,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1591,7 +1584,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1621,7 +1614,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1651,7 +1644,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1681,7 +1674,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1711,7 +1704,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1741,7 +1734,7 @@
                                                     </div>
                                                     <div class="product_extras">
                                                         <button class="product_cart_button">
-                                                            Add to Cart
+                                                          Thêm vào giỏ hàng
                                                         </button>
                                                     </div>
                                                 </div>
@@ -1771,7 +1764,7 @@
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="popular_categories_content">
-                            <div class="popular_categories_title">Popular Categories</div>
+                            <div class="popular_categories_title">Các mặt hàng</div>
                             <div class="popular_categories_slider_nav">
                                 <div class="popular_categories_prev popular_categories_nav">
                                     <i class="fas fa-angle-left ml-auto"></i>
@@ -1875,11 +1868,9 @@
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing
                                                 elit. Maecenas fermentum laoreet.
                                             </div>
-                                            <div class="rating_r rating_r_4 banner_2_rating">
-                                                <i></i><i></i><i></i><i></i><i></i>
-                                            </div>
+                                            
                                             <div class="button banner_2_button">
-                                                <a href="#">Explore</a>
+                                                <a href="#">Xem chi tiết</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1908,11 +1899,9 @@
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing
                                                 elit. Maecenas fermentum laoreet.
                                             </div>
-                                            <div class="rating_r rating_r_4 banner_2_rating">
-                                                <i></i><i></i><i></i><i></i><i></i>
-                                            </div>
+                                            
                                             <div class="button banner_2_button">
-                                                <a href="#">Explore</a>
+                                                <a href="#">Xem chi tiết</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1941,11 +1930,9 @@
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing
                                                 elit. Maecenas fermentum laoreet.
                                             </div>
-                                            <div class="rating_r rating_r_4 banner_2_rating">
-                                                <i></i><i></i><i></i><i></i><i></i>
-                                            </div>
+                                            
                                             <div class="button banner_2_button">
-                                                <a href="#">Explore</a>
+                                                <a href="#">Xem chi tiết</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1972,11 +1959,10 @@
                     <div class="col">
                         <div class="tabbed_container">
                             <div class="tabs clearfix tabs-right">
-                                <div class="new_arrivals_title">Hot New Arrivals</div>
+                                <div class="new_arrivals_title">Hàng hot 2024 </div>
                                 <ul class="clearfix">
-                                    <li class="active">Featured</li>
-                                    <li>Audio & Video</li>
-                                    <li>Laptops & Computers</li>
+                                    <li class="active"></li>
+                                   
                                 </ul>
                                 <div class="tabs_line"><span></span></div>
                             </div>
@@ -2001,7 +1987,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2033,7 +2019,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button active">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2063,7 +2049,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2093,7 +2079,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2123,7 +2109,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2153,7 +2139,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2183,7 +2169,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2213,7 +2199,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2243,7 +2229,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2273,7 +2259,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2303,7 +2289,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2333,7 +2319,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2363,7 +2349,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2393,7 +2379,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2423,7 +2409,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2453,7 +2439,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2489,7 +2475,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2521,7 +2507,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button active">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2551,7 +2537,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2581,7 +2567,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2611,7 +2597,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2641,7 +2627,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2671,7 +2657,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2703,7 +2689,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2733,7 +2719,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2763,7 +2749,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2793,7 +2779,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2823,7 +2809,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2853,7 +2839,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2883,7 +2869,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2913,7 +2899,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2943,7 +2929,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2979,7 +2965,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -3011,7 +2997,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button active">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -3041,7 +3027,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -3071,7 +3057,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -3101,7 +3087,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -3131,7 +3117,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -3161,7 +3147,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -3193,7 +3179,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -3223,7 +3209,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -3253,7 +3239,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -3283,7 +3269,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -3313,7 +3299,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -3343,7 +3329,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -3373,7 +3359,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -3403,7 +3389,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -3433,7 +3419,7 @@
                                                         </div>
                                                         <div class="product_extras">
                                                             <button class="product_cart_button">
-                                                                Add to Cart
+                                                              Thêm vào giỏ hàng
                                                             </button>
                                                         </div>
                                                     </div>
@@ -3472,7 +3458,7 @@
                                                 <div class="rating_r rating_r_4 arrivals_single_rating"></div>
                                                 <form action="#">
                                                     <button class="arrivals_single_button">
-                                                        Add to Cart
+                                                      Thêm vào giỏ hàng
                                                     </button>
                                                 </form>
                                             </div>
@@ -3502,11 +3488,10 @@
                     <div class="col">
                         <div class="tabbed_container">
                             <div class="tabs clearfix tabs-right">
-                                <div class="new_arrivals_title">Hot Best Sellers</div>
+                                <div class="new_arrivals_title">Mặt hàng bán chạy</div>
                                 <ul class="clearfix">
-                                    <li class="active">Top 20</li>
-                                    <li>Audio & Video</li>
-                                    <li>Laptops & Computers</li>
+                                    <li class="active"></li>
+                                   
                                 </ul>
                                 <div class="tabs_line"><span></span></div>
                             </div>
@@ -3528,9 +3513,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                               
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -3560,9 +3543,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Samsung J730F...</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                               
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -3592,9 +3573,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Nomi Black White</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                               
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -3624,9 +3603,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Samsung Charm Gold</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                                
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -3656,9 +3633,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Beoplay H7</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                               
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -3688,9 +3663,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Huawei MediaPad T3</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                               
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -3720,9 +3693,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                              
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -3752,9 +3723,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                               
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -3784,9 +3753,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                              
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -3816,9 +3783,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                               
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -3848,9 +3813,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                              
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -3880,9 +3843,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                              
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -3918,9 +3879,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                               
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -3950,9 +3909,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                               
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -3982,9 +3939,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                               
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -4014,9 +3969,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                               
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -4046,9 +3999,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                              
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -4078,9 +4029,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                              
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -4110,9 +4059,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                                
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -4142,9 +4089,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                               
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -4174,9 +4119,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                               
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -4206,9 +4149,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                               
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -4238,9 +4179,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                               
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -4270,9 +4209,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                               
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -4308,9 +4245,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                               
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -4340,9 +4275,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                               
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -4372,9 +4305,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                               
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -4404,9 +4335,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                              
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -4436,9 +4365,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                               
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -4468,9 +4395,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                             
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -4500,9 +4425,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                              
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -4532,9 +4455,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                               
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -4564,9 +4485,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                              
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -4596,9 +4515,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                                
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -4628,9 +4545,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                               
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -4660,9 +4575,7 @@
                                                 <div class="bestsellers_name">
                                                     <a href="product.html">Xiaomi Redmi Note 4</a>
                                                 </div>
-                                                <div class="rating_r rating_r_4 bestsellers_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
+                                               
                                                 <div class="bestsellers_price discount">
                                                     $225<span>$300</span>
                                                 </div>
@@ -4688,66 +4601,7 @@
 
         <!-- Adverts -->
 
-        <div class="adverts">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 advert_col">
-                        <!-- Advert Item -->
-
-                        <div class="advert d-flex flex-row align-items-center justify-content-start">
-                            <div class="advert_content">
-                                <div class="advert_title"><a href="#">Trends 2018</a></div>
-                                <div class="advert_text">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing Donec et.
-                                </div>
-                            </div>
-                            <div class="ml-auto">
-                                <div class="advert_image">
-                                    <img src="images/adv_1.png" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 advert_col">
-                        <!-- Advert Item -->
-
-                        <div class="advert d-flex flex-row align-items-center justify-content-start">
-                            <div class="advert_content">
-                                <div class="advert_subtitle">Trends 2018</div>
-                                <div class="advert_title_2"><a href="#">Sale -45%</a></div>
-                                <div class="advert_text">
-                                    Lorem ipsum dolor sit amet, consectetur.
-                                </div>
-                            </div>
-                            <div class="ml-auto">
-                                <div class="advert_image">
-                                    <img src="images/adv_2.png" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 advert_col">
-                        <!-- Advert Item -->
-
-                        <div class="advert d-flex flex-row align-items-center justify-content-start">
-                            <div class="advert_content">
-                                <div class="advert_title"><a href="#">Trends 2018</a></div>
-                                <div class="advert_text">
-                                    Lorem ipsum dolor sit amet, consectetur.
-                                </div>
-                            </div>
-                            <div class="ml-auto">
-                                <div class="advert_image">
-                                    <img src="images/adv_3.png" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      
 
         <!-- Trends -->
 
@@ -4759,10 +4613,10 @@
                     <!-- Trends Content -->
                     <div class="col-lg-3">
                         <div class="trends_container">
-                            <h2 class="trends_title">Trends 2018</h2>
+                            <h2 class="trends_title">Những sản phẩm của năm</h2>
                             <div class="trends_text">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing Donec et.
+                                    Những sản phẩm được bán chạy cũng như được đánh giá cao nhất của cửa hàng chúng tôi
                                 </p>
                             </div>
                             <div class="trends_slider_nav">
@@ -4940,324 +4794,10 @@
 
         <!-- Reviews -->
 
-        <div class="reviews">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="reviews_title_container">
-                            <h3 class="reviews_title">Latest Reviews</h3>
-                            <div class="reviews_all ml-auto">
-                                <a href="#">view all <span>reviews</span></a>
-                            </div>
-                        </div>
-
-                        <div class="reviews_slider_container">
-                            <!-- Reviews Slider -->
-                            <div class="owl-carousel owl-theme reviews_slider">
-                                <!-- Reviews Slider Item -->
-                                <div class="owl-item">
-                                    <div class="review d-flex flex-row align-items-start justify-content-start">
-                                        <div>
-                                            <div class="review_image">
-                                                <img src="images/review_1.jpg" alt="" />
-                                            </div>
-                                        </div>
-                                        <div class="review_content">
-                                            <div class="review_name">Roberto Sanchez</div>
-                                            <div class="review_rating_container">
-                                                <div class="rating_r rating_r_4 review_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
-                                                <div class="review_time">2 day ago</div>
-                                            </div>
-                                            <div class="review_text">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                    elit. Maecenas fermentum laoreet.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Reviews Slider Item -->
-                                <div class="owl-item">
-                                    <div class="review d-flex flex-row align-items-start justify-content-start">
-                                        <div>
-                                            <div class="review_image">
-                                                <img src="images/review_2.jpg" alt="" />
-                                            </div>
-                                        </div>
-                                        <div class="review_content">
-                                            <div class="review_name">Brandon Flowers</div>
-                                            <div class="review_rating_container">
-                                                <div class="rating_r rating_r_4 review_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
-                                                <div class="review_time">2 day ago</div>
-                                            </div>
-                                            <div class="review_text">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                    elit. Maecenas fermentum laoreet.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Reviews Slider Item -->
-                                <div class="owl-item">
-                                    <div class="review d-flex flex-row align-items-start justify-content-start">
-                                        <div>
-                                            <div class="review_image">
-                                                <img src="images/review_3.jpg" alt="" />
-                                            </div>
-                                        </div>
-                                        <div class="review_content">
-                                            <div class="review_name">Emilia Clarke</div>
-                                            <div class="review_rating_container">
-                                                <div class="rating_r rating_r_4 review_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
-                                                <div class="review_time">2 day ago</div>
-                                            </div>
-                                            <div class="review_text">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                    elit. Maecenas fermentum laoreet.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Reviews Slider Item -->
-                                <div class="owl-item">
-                                    <div class="review d-flex flex-row align-items-start justify-content-start">
-                                        <div>
-                                            <div class="review_image">
-                                                <img src="images/review_1.jpg" alt="" />
-                                            </div>
-                                        </div>
-                                        <div class="review_content">
-                                            <div class="review_name">Roberto Sanchez</div>
-                                            <div class="review_rating_container">
-                                                <div class="rating_r rating_r_4 review_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
-                                                <div class="review_time">2 day ago</div>
-                                            </div>
-                                            <div class="review_text">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                    elit. Maecenas fermentum laoreet.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Reviews Slider Item -->
-                                <div class="owl-item">
-                                    <div class="review d-flex flex-row align-items-start justify-content-start">
-                                        <div>
-                                            <div class="review_image">
-                                                <img src="images/review_2.jpg" alt="" />
-                                            </div>
-                                        </div>
-                                        <div class="review_content">
-                                            <div class="review_name">Brandon Flowers</div>
-                                            <div class="review_rating_container">
-                                                <div class="rating_r rating_r_4 review_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
-                                                <div class="review_time">2 day ago</div>
-                                            </div>
-                                            <div class="review_text">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                    elit. Maecenas fermentum laoreet.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Reviews Slider Item -->
-                                <div class="owl-item">
-                                    <div class="review d-flex flex-row align-items-start justify-content-start">
-                                        <div>
-                                            <div class="review_image">
-                                                <img src="images/review_3.jpg" alt="" />
-                                            </div>
-                                        </div>
-                                        <div class="review_content">
-                                            <div class="review_name">Emilia Clarke</div>
-                                            <div class="review_rating_container">
-                                                <div class="rating_r rating_r_4 review_rating">
-                                                    <i></i><i></i><i></i><i></i><i></i>
-                                                </div>
-                                                <div class="review_time">2 day ago</div>
-                                            </div>
-                                            <div class="review_text">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                    elit. Maecenas fermentum laoreet.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="reviews_dots"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+     
         <!-- Recently Viewed -->
 
-        <div class="viewed">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="viewed_title_container">
-                            <h3 class="viewed_title">Recently Viewed</h3>
-                            <div class="viewed_nav_container">
-                                <div class="viewed_nav viewed_prev">
-                                    <i class="fas fa-chevron-left"></i>
-                                </div>
-                                <div class="viewed_nav viewed_next">
-                                    <i class="fas fa-chevron-right"></i>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="viewed_slider_container">
-                            <!-- Recently Viewed Slider -->
-
-                            <div class="owl-carousel owl-theme viewed_slider">
-                                <!-- Recently Viewed Item -->
-                                <div class="owl-item">
-                                    <div class="viewed_item discount d-flex flex-column align-items-center justify-content-center text-center">
-                                        <div class="viewed_image">
-                                            <img src="images/view_1.jpg" alt="" />
-                                        </div>
-                                        <div class="viewed_content text-center">
-                                            <div class="viewed_price">$225<span>$300</span></div>
-                                            <div class="viewed_name">
-                                                <a href="#">Beoplay H7</a>
-                                            </div>
-                                        </div>
-                                        <ul class="item_marks">
-                                            <li class="item_mark item_discount">-25%</li>
-                                            <li class="item_mark item_new">new</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <!-- Recently Viewed Item -->
-                                <div class="owl-item">
-                                    <div class="viewed_item d-flex flex-column align-items-center justify-content-center text-center">
-                                        <div class="viewed_image">
-                                            <img src="images/view_2.jpg" alt="" />
-                                        </div>
-                                        <div class="viewed_content text-center">
-                                            <div class="viewed_price">$379</div>
-                                            <div class="viewed_name">
-                                                <a href="#">LUNA Smartphone</a>
-                                            </div>
-                                        </div>
-                                        <ul class="item_marks">
-                                            <li class="item_mark item_discount">-25%</li>
-                                            <li class="item_mark item_new">new</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <!-- Recently Viewed Item -->
-                                <div class="owl-item">
-                                    <div class="viewed_item d-flex flex-column align-items-center justify-content-center text-center">
-                                        <div class="viewed_image">
-                                            <img src="images/view_3.jpg" alt="" />
-                                        </div>
-                                        <div class="viewed_content text-center">
-                                            <div class="viewed_price">$225</div>
-                                            <div class="viewed_name">
-                                                <a href="#">Samsung J730F...</a>
-                                            </div>
-                                        </div>
-                                        <ul class="item_marks">
-                                            <li class="item_mark item_discount">-25%</li>
-                                            <li class="item_mark item_new">new</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <!-- Recently Viewed Item -->
-                                <div class="owl-item">
-                                    <div class="viewed_item is_new d-flex flex-column align-items-center justify-content-center text-center">
-                                        <div class="viewed_image">
-                                            <img src="images/view_4.jpg" alt="" />
-                                        </div>
-                                        <div class="viewed_content text-center">
-                                            <div class="viewed_price">$379</div>
-                                            <div class="viewed_name">
-                                                <a href="#">Huawei MediaPad...</a>
-                                            </div>
-                                        </div>
-                                        <ul class="item_marks">
-                                            <li class="item_mark item_discount">-25%</li>
-                                            <li class="item_mark item_new">new</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <!-- Recently Viewed Item -->
-                                <div class="owl-item">
-                                    <div class="viewed_item discount d-flex flex-column align-items-center justify-content-center text-center">
-                                        <div class="viewed_image">
-                                            <img src="images/view_5.jpg" alt="" />
-                                        </div>
-                                        <div class="viewed_content text-center">
-                                            <div class="viewed_price">$225<span>$300</span></div>
-                                            <div class="viewed_name">
-                                                <a href="#">Sony PS4 Slim</a>
-                                            </div>
-                                        </div>
-                                        <ul class="item_marks">
-                                            <li class="item_mark item_discount">-25%</li>
-                                            <li class="item_mark item_new">new</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <!-- Recently Viewed Item -->
-                                <div class="owl-item">
-                                    <div class="viewed_item d-flex flex-column align-items-center justify-content-center text-center">
-                                        <div class="viewed_image">
-                                            <img src="images/view_6.jpg" alt="" />
-                                        </div>
-                                        <div class="viewed_content text-center">
-                                            <div class="viewed_price">$375</div>
-                                            <div class="viewed_name">
-                                                <a href="#">Speedlink...</a>
-                                            </div>
-                                        </div>
-                                        <ul class="item_marks">
-                                            <li class="item_mark item_discount">-25%</li>
-                                            <li class="item_mark item_new">new</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+       
 
         <!-- Brands -->
 
@@ -5326,31 +4866,4 @@
 
         <!-- Newsletter -->
 
-        <div class="newsletter">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="newsletter_container d-flex flex-lg-row flex-column align-items-lg-center align-items-center justify-content-lg-start justify-content-center">
-                            <div class="newsletter_title_container">
-                                <div class="newsletter_icon">
-                                    <img src="images/send.png" alt="" />
-                                </div>
-                                <div class="newsletter_title">Sign up for Newsletter</div>
-                                <div class="newsletter_text">
-                                    <p>...and receive %20 coupon for first shopping.</p>
-                                </div>
-                            </div>
-                            <div class="newsletter_content clearfix">
-                                <form action="#" class="newsletter_form">
-                                    <input type="email" class="newsletter_input" required="required" placeholder="Enter your email address" />
-                                    <button class="newsletter_button">Subscribe</button>
-                                </form>
-                                <div class="newsletter_unsubscribe_link">
-                                    <a href="#">unsubscribe</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+       

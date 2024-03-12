@@ -31,13 +31,13 @@
                                 <div class="top_bar_icon">
                                     <img src="images/phone.png" alt="" />
                                 </div>
-                                +38 068
+                                +03 256 341
                             </div>
                             <div class="top_bar_contact_item">
                                 <div class="top_bar_icon">
                                     <img src="images/mail.png" alt="" />
                                 </div>
-                                <a href="mailto:fastsales@gmail.com">fastsales@gmail.com</a>
+                                <a href="mailto:fastsales@gmail.com">techboys@gmail.com</a>
                             </div>
                             <div class="top_bar_content ml-auto">
 
@@ -73,11 +73,11 @@
                                     <div class="header_search_form_container">
                                         <form action="#" class="header_search_form clearfix">
                                             <input type="search" required="required" class="header_search_input"
-                                                placeholder="Search for products..." />
-                                            <div class="custom_dropdown">
+                                                placeholder="Tìm kiếm" />
+                                            <div >
                                                 <div class="custom_dropdown_list">
-                                                    <span class="custom_dropdown_placeholder clc">All Categories</span>
-                                                    <i class="fas fa-chevron-down"></i>
+                                                    <span class="custom_dropdown_placeholder clc"></span>
+    
                                                     <ul class="custom_list clc">
                                                         <li>
                                                             <a class="clc" href="#">All Categories</a>
@@ -108,8 +108,8 @@
                                 <div class="cart">
                                     <div class="cart_container d-flex flex-row align-items-center justify-content-end">
                                         <div class="cart_icon">
-                                            <img src="images/cart.png" alt="" />
-                                            <div class="cart_count"><span>10</span></div>
+                                            <img src="images/icons8-shop-32.png"  alt="" />
+                                           
                                         </div>
                                         <div class="cart_content">
                                             <div class="cart_text"><a href="index.php?act=giohang">Giỏ hàng</a></div>
@@ -134,7 +134,7 @@
                                 <div class="cat_menu_container">
 								<div class="cat_menu_title d-flex flex-row align-items-center justify-content-start">
 									<div class="cat_burger"><span></span><span></span><span></span></div>
-									<div class="cat_menu_text">categories</div>
+									<div class="cat_menu_text">Danh mục</div>
 								</div>
 
 								<ul class="cat_menu">
@@ -172,7 +172,7 @@
                                 <div class="main_nav_menu ml-auto">
                                     <ul class="standard_dropdown main_nav_dropdown">
                                         <li>
-                                            <a href="index.php">Home<i class="fas fa-chevron-down"></i></a>
+                                            <a href="index.php">Trang chủ<i class="fas fa-chevron-down"></i></a>
                                         </li>
                                         <li>
                                             <a href="index.php?act=cuahang">Cửa hàng<i class="fas fa-chevron-down"></i></a>

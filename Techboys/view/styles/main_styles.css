@@ -806,7 +806,7 @@ select option
 }
 .cart_content
 {
-	margin-left: 28px;
+	margin-left: 15px;
 }
 .cart_text a
 {
@@ -818,6 +818,7 @@ select option
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
+	
 }
 .cart_text a:hover
 {
@@ -1436,6 +1437,7 @@ select option
 }
 .deals_timer_title
 {
+	margin-top: -15px;
 	font-size: 14px;
 	font-weight: 500;
 	color: #000000;
@@ -2803,7 +2805,7 @@ select option
 
 .trends
 {
-	padding-top: 80px;
+	padding-top: 100px;
 	padding-bottom: 80px;
 }
 .trends_overlay
@@ -3516,6 +3518,7 @@ select option
 
 .footer
 {
+	background-color:#f1f1f1;
 	padding-top: 52px;
 	padding-bottom: 40px;
 }
@@ -3629,7 +3632,7 @@ select option
 .copyright
 {
 	width: 100%;
-	background: #fafafa;
+	background: #f1f1f1;
 }
 .copyright_container
 {
