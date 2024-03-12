@@ -10,7 +10,7 @@
 						<div class="main_nav_content d-flex flex-row">
 			
 
-						TechBoys
+						TechBois
 
 						</div>
 					</div>
