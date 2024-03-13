@@ -68,21 +68,21 @@
 						<!-- Blog post -->
 						<div class="blog_post">
 							<div class="blog_image" style="background-image:url(images/blog_7.jpg)"></div>
-							<div class="blog_text">Make Life Easier on Yourself by Accepting “Good Enough.” Don’t Pursue Perfection.</div>
+							<div class="blog_text">Những đồ công nghệ lên có trên bàn làm việc của bạn</div>
 							<div class="blog_button"><a href="blog_single.html">Đọc</a></div>
 						</div>
 
 						<!-- Blog post -->
 						<div class="blog_post">
 							<div class="blog_image" style="background-image:url(images/blog_8.jpg)"></div>
-							<div class="blog_text">13 Reasons You Are Failing At Life And Becoming A Bum</div>
+							<div class="blog_text">Bên trong linh kiện điện tử sẽ có những gì ?</div>
 							<div class="blog_button"><a href="blog_single.html">Đọc</a></div>
 						</div>
 
 						<!-- Blog post -->
 						<div class="blog_post">
 							<div class="blog_image" style="background-image:url(images/blog_9.jpg)"></div>
-							<div class="blog_text">4 Steps to Getting Anything You Want In Life</div>
+							<div class="blog_text">4 cách sắp xếp nơi làm việc của bạn hợp lý</div>
 							<div class="blog_button"><a href="blog_single.html">Đọc</a></div>
 						</div>
 						

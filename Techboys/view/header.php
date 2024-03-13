@@ -134,7 +134,7 @@
                                 <div class="cat_menu_container">
 								<div class="cat_menu_title d-flex flex-row align-items-center justify-content-start">
 									<div class="cat_burger"><span></span><span></span><span></span></div>
-									<div class="cat_menu_text">Danh mục</div>
+									<div class="cat_menu_text">Danh mục sản phẩm</div>
 								</div>
 
 								<ul class="cat_menu">
@@ -181,8 +181,7 @@
                                             <a href="index.php?act=blog">Tin tức<i class="fas fa-chevron-down"></i></a>
                                         </li>
                                         <li>
-                                            <a href="index.php?act=lienhe">Liên hệ<i
-                                                    class="fas fa-chevron-down"></i></a>
+                                            <a href="index.php?act=lienhe">Liên hệ<i class="fas fa-chevron-down"></i></a>
                                         </li>
                                     </ul>
                                 </div>
