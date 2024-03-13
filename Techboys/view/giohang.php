@@ -10,7 +10,7 @@
 				<div class="row">
 					<div class="col-lg-10 offset-lg-1">
 						<div class="cart_container">
-							<div class="cart_title">Shopping Cart</div>
+							<div class="cart_title">Giỏ hàng</div>
 							<div class="cart_items">
 								<ul class="cart_list">
 									<li class="cart_item clearfix">
