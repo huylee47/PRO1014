@@ -144,6 +144,8 @@
       <script src="js/shop_custom.js"></script>
       <!-- Liên hệ -->
       <script src="js/contact_custom.js"></script>
+      <!-- Chi tiết sản phẩm -->
+      <script src="js/product_custom.js"></script>
       </body>
 
       </html>
