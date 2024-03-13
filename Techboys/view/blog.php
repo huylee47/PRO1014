@@ -26,42 +26,42 @@
 						<!-- Blog post -->
 						<div class="blog_post">
 							<div class="blog_image" style="background-image:url(images/blog_1.jpg)"></div>
-							<div class="blog_text">Vivamus sed nunc in arcu cursus mollis quis et orci. Interdum et malesuada.</div>
+							<div class="blog_text">Sự đổi mới công nghệ vào năm 2024</div>
 							<div class="blog_button"><a href="blog_single.html">Đọc</a></div>
 						</div>
 
 						<!-- Blog post -->
 						<div class="blog_post">
 							<div class="blog_image" style="background-image:url(images/blog_2.jpg)"></div>
-							<div class="blog_text">Cras lobortis nisl nec libero pulvinar lacinia. Nunc sed ullamcorper massa.</div>
+							<div class="blog_text">Những linh kiện điên tử mới ra mắt năm 2024</div>
 							<div class="blog_button"><a href="blog_single.html">Đọc</a></div>
 						</div>
 
 						<!-- Blog post -->
 						<div class="blog_post">
 							<div class="blog_image" style="background-image:url(images/blog_3.jpg)"></div>
-							<div class="blog_text">Fusce tincidunt nulla magna, ac euismod quam viverra id. Fusce eget metus feugiat</div>
+							<div class="blog_text">Khám phá những linh kiện điện tử thường có bên trong các đồ gia dụng trong gia đình</div>
 							<div class="blog_button"><a href="blog_single.html">Đọc</a></div>
 						</div>
 
 						<!-- Blog post -->
 						<div class="blog_post">
 							<div class="blog_image" style="background-image:url(images/blog_4.jpg)"></div>
-							<div class="blog_text">Etiam leo nibh, consectetur nec orci et, tempus tempus ex</div>
+							<div class="blog_text">Tai nghe Bluetooth AirPods Pro Gen 2 MagSafe Charge (USB-C) Apple MTJV3 mới ra mắt 2024</div>
 							<div class="blog_button"><a href="blog_single.html">Đọc</a></div>
 						</div>
 
 						<!-- Blog post -->
 						<div class="blog_post">
 							<div class="blog_image" style="background-image:url(images/blog_5.jpg)"></div>
-							<div class="blog_text">Sed viverra pellentesque dictum. Aenean ligula justo, viverra in lacus porttitor</div>
+							<div class="blog_text">Những đồ công nghệ apple đáng mua nhất 2024</div>
 							<div class="blog_button"><a href="blog_single.html">Đọc</a></div>
 						</div>
 
 						<!-- Blog post -->
 						<div class="blog_post">
 							<div class="blog_image" style="background-image:url(images/blog_6.jpg)"></div>
-							<div class="blog_text">In nisl tortor, tempus nec ex vitae, bibendum rutrum mi. Integer tempus nisi</div>
+							<div class="blog_text">Máy chơi game ps5 mang trong mình cấu hình khủng có hiệu năng ra sao?</div>
 							<div class="blog_button"><a href="blog_single.html">Đọc</a></div>
 						</div>
 
