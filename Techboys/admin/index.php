@@ -1,16 +1,16 @@
 <?php
 // aaaaaaaaaaaaaaaaaaaaaa
-include 'header.php';
+include 'view/header.php';
 if (($_GET == [])) {
-    include 'home.php';
+    include 'view/home.php';
 } else {
     if (isset($_GET['act'])) {
         $act = $_GET['act'];
         switch ($act) {
-            case 'cuahang':
+            case 'danhmuc':
                 include "cuahang.php";
                 break;
-            case 'lienhe':
+            case 'sanpham':
                 include "lienhe.php";
                 break;
             case 'giohang':
@@ -26,4 +26,4 @@ if (($_GET == [])) {
     }
 }
 
-include 'footer.php';
+include 'view/footer.php';

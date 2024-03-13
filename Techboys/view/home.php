@@ -295,7 +295,7 @@
                                                     </div>
                                                     <div class="product_name">
                                                         <div>
-                                                            <a href="product.html">Huawei MediaPad...</a>
+                                                            <a href="">Huawei MediaPad...</a>
                                                         </div>
                                                     </div>
                                                     <div class="product_extras">
@@ -312,6 +312,7 @@
                                                     <li class="product_mark product_new">new</li>
                                                 </ul>
                                             </div>
+                                        
                                         </div>
 
                                         <!-- Slider Item -->
