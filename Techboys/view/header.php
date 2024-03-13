@@ -45,7 +45,7 @@
                                     <div class="user_icon">
                                         <img src="images/user.svg" alt="" />
                                     </div>
-                                    <div><a href="#">Đăng kí</a></div>
+                                    <div><a href="#">Đăng ký</a></div>
                                     <div><a href="#">Đăng nhập</a></div>
                                 </div>
                             </div>
