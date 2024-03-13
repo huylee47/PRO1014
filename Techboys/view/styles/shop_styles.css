@@ -828,6 +828,7 @@ select option
 }
 .cart_content
 {
+	
 	margin-left: 28px;
 }
 .cart_text a
@@ -1014,11 +1015,12 @@ select option
 }
 .main_nav_dropdown li
 {
+	padding-left: 20px;
 	margin-right: 35px;
 }
 .main_nav_dropdown li:last-child
 {
-	margin-right: 0px;
+	margin-right: 150px;
 }
 .main_nav_dropdown li a
 {
