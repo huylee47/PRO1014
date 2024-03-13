@@ -1,6 +1,8 @@
 <head>
 <link rel="stylesheet" type="text/css" href="styles/blog_styles.css">
     <link rel="stylesheet" type="text/css" href="styles/blog_responsive.css">
+	<link rel="stylesheet" type="text/css" href="styles/main_styles.css" />
+
 </head>
 
 	<!-- Home -->
@@ -9,11 +11,11 @@
 		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="images/shop_background.jpg"></div>
 		<div class="home_overlay"></div>
 		<div class="home_content d-flex flex-column align-items-center justify-content-center">
-			<h2 class="home_title">Technological Blog</h2>
+			<h2 class="home_title">Tin Tức</h2>
 		</div>
 	</div>
 
-	<!-- Blogggggggggggggggggggggggg -->
+	<!-- Blog -->
 
 	<div class="blog">
 		<div class="container">
@@ -24,64 +26,64 @@
 						<!-- Blog post -->
 						<div class="blog_post">
 							<div class="blog_image" style="background-image:url(images/blog_1.jpg)"></div>
-							<div class="blog_text">Vivamus sed nunc in arcu cursus mollis quis et orci. Interdum et malesuada.</div>
-							<div class="blog_button"><a href="blog_single.html">Continue Reading</a></div>
+							<div class="blog_text">Sự đổi mới công nghệ vào năm 2024</div>
+							<div class="blog_button"><a href="blog_single.html">Đọc</a></div>
 						</div>
 
 						<!-- Blog post -->
 						<div class="blog_post">
 							<div class="blog_image" style="background-image:url(images/blog_2.jpg)"></div>
-							<div class="blog_text">Cras lobortis nisl nec libero pulvinar lacinia. Nunc sed ullamcorper massa.</div>
-							<div class="blog_button"><a href="blog_single.html">Continue Reading</a></div>
+							<div class="blog_text">Những linh kiện điên tử mới ra mắt năm 2024</div>
+							<div class="blog_button"><a href="blog_single.html">Đọc</a></div>
 						</div>
 
 						<!-- Blog post -->
 						<div class="blog_post">
 							<div class="blog_image" style="background-image:url(images/blog_3.jpg)"></div>
-							<div class="blog_text">Fusce tincidunt nulla magna, ac euismod quam viverra id. Fusce eget metus feugiat</div>
-							<div class="blog_button"><a href="blog_single.html">Continue Reading</a></div>
+							<div class="blog_text">Khám phá những linh kiện điện tử thường có bên trong các đồ gia dụng trong gia đình</div>
+							<div class="blog_button"><a href="blog_single.html">Đọc</a></div>
 						</div>
 
 						<!-- Blog post -->
 						<div class="blog_post">
 							<div class="blog_image" style="background-image:url(images/blog_4.jpg)"></div>
-							<div class="blog_text">Etiam leo nibh, consectetur nec orci et, tempus tempus ex</div>
-							<div class="blog_button"><a href="blog_single.html">Continue Reading</a></div>
+							<div class="blog_text">Tai nghe Bluetooth AirPods Pro Gen 2 MagSafe Charge (USB-C) Apple MTJV3 mới ra mắt 2024</div>
+							<div class="blog_button"><a href="blog_single.html">Đọc</a></div>
 						</div>
 
 						<!-- Blog post -->
 						<div class="blog_post">
 							<div class="blog_image" style="background-image:url(images/blog_5.jpg)"></div>
-							<div class="blog_text">Sed viverra pellentesque dictum. Aenean ligula justo, viverra in lacus porttitor</div>
-							<div class="blog_button"><a href="blog_single.html">Continue Reading</a></div>
+							<div class="blog_text">Những đồ công nghệ apple đáng mua nhất 2024</div>
+							<div class="blog_button"><a href="blog_single.html">Đọc</a></div>
 						</div>
 
 						<!-- Blog post -->
 						<div class="blog_post">
 							<div class="blog_image" style="background-image:url(images/blog_6.jpg)"></div>
-							<div class="blog_text">In nisl tortor, tempus nec ex vitae, bibendum rutrum mi. Integer tempus nisi</div>
-							<div class="blog_button"><a href="blog_single.html">Continue Reading</a></div>
+							<div class="blog_text">Máy chơi game ps5 mang trong mình cấu hình khủng có hiệu năng ra sao?</div>
+							<div class="blog_button"><a href="blog_single.html">Đọc</a></div>
 						</div>
 
 						<!-- Blog post -->
 						<div class="blog_post">
 							<div class="blog_image" style="background-image:url(images/blog_7.jpg)"></div>
 							<div class="blog_text">Make Life Easier on Yourself by Accepting “Good Enough.” Don’t Pursue Perfection.</div>
-							<div class="blog_button"><a href="blog_single.html">Continue Reading</a></div>
+							<div class="blog_button"><a href="blog_single.html">Đọc</a></div>
 						</div>
 
 						<!-- Blog post -->
 						<div class="blog_post">
 							<div class="blog_image" style="background-image:url(images/blog_8.jpg)"></div>
 							<div class="blog_text">13 Reasons You Are Failing At Life And Becoming A Bum</div>
-							<div class="blog_button"><a href="blog_single.html">Continue Reading</a></div>
+							<div class="blog_button"><a href="blog_single.html">Đọc</a></div>
 						</div>
 
 						<!-- Blog post -->
 						<div class="blog_post">
 							<div class="blog_image" style="background-image:url(images/blog_9.jpg)"></div>
 							<div class="blog_text">4 Steps to Getting Anything You Want In Life</div>
-							<div class="blog_button"><a href="blog_single.html">Continue Reading</a></div>
+							<div class="blog_button"><a href="blog_single.html">Đọc</a></div>
 						</div>
 						
 					</div>
@@ -93,25 +95,4 @@
 
 	<!-- Newsletter -->
 
-	<div class="newsletter">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="newsletter_container d-flex flex-lg-row flex-column align-items-lg-center align-items-center justify-content-lg-start justify-content-center">
-						<div class="newsletter_title_container">
-							<div class="newsletter_icon"><img src="images/send.png" alt=""></div>
-							<div class="newsletter_title">Sign up for Newsletter</div>
-							<div class="newsletter_text"><p>...and receive %20 coupon for first shopping.</p></div>
-						</div>
-						<div class="newsletter_content clearfix">
-							<form action="#" class="newsletter_form">
-								<input type="email" class="newsletter_input" required="required" placeholder="Enter your email address">
-								<button class="newsletter_button">Subscribe</button>
-							</form>
-							<div class="newsletter_unsubscribe_link"><a href="#">unsubscribe</a></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	
