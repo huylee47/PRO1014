@@ -19,11 +19,11 @@
         </div>
       </div>
       <div class="sidebar">
-        <a href="#">
+        <a href="index.php?act=listdanhmuc">
           <span class="material-symbols-outlined">grid_view</span>
           <h3>Danh mục</h3>
         </a>
-        <a href="#" class="active">
+        <a href="#">
           <span class="material-symbols-outlined">person</span>
           <h3>Sản phẩm</h3>
         </a>
@@ -63,11 +63,8 @@
       </div>
     </aside>
     <!-- End of aside -->
-    <main>
-      <h1>QUẢN LÝ ADMIN</h1>
-    </main>
-    <!-- End of main -->
-    <div class="right">
+
+    <!-- <div class="right">
       <div class="top">
         <button id="menu-btn">
           <span class="material-symbols-outlined">menu</span>
@@ -84,6 +81,4 @@
           
         </div>
       </div>
-      <!-- End of top -->
-      <!-- End of recent updates -->
-    </div>
+    </div> -->
