@@ -1,13 +1,14 @@
 <?php
+include 'view/header.php';
 // aaaaaaaaaaaaaaaaaaaaaa
 if (($_GET == [])) {
-    include 'view/header.php';
+    include 'view/home.php';
 } else {
     if (isset($_GET['act'])) {
         $act = $_GET['act'];
         switch ($act) {
-            case 'danhmuc':
-                include "cuahang.php";
+            case 'listdanhmuc':
+                include "view/danhmuc/list.php";
                 break;
             case 'sanpham':
                 include "lienhe.php";
