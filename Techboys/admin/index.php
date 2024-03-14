@@ -1,8 +1,7 @@
 <?php
 // aaaaaaaaaaaaaaaaaaaaaa
-include 'view/header.php';
 if (($_GET == [])) {
-    include 'view/home.php';
+    include 'view/header.php';
 } else {
     if (isset($_GET['act'])) {
         $act = $_GET['act'];
