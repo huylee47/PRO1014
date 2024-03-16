@@ -3,9 +3,9 @@
   margin-bottom: $jumbotron-padding;
   color: $jumbotron-color;
   background-color: $jumbotron-bg;
-  @include border-radius($border-radius-lg);
+  @require_once border-radius($border-radius-lg);
 
-  @include media-breakpoint-up(sm) {
+  @require_once media-breakpoint-up(sm) {
     padding: ($jumbotron-padding * 2) $jumbotron-padding;
   }
 }
@@ -13,5 +13,5 @@
 .jumbotron-fluid {
   padding-right: 0;
   padding-left: 0;
-  @include border-radius(0);
+  @require_once border-radius(0);
 }

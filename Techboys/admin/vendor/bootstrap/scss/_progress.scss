@@ -11,10 +11,10 @@
   height: $progress-height;
   overflow: hidden; // force rounded corners by cropping it
   line-height: 0;
-  @include font-size($progress-font-size);
+  @require_once font-size($progress-font-size);
   background-color: $progress-bg;
-  @include border-radius($progress-border-radius);
-  @include box-shadow($progress-box-shadow);
+  @require_once border-radius($progress-border-radius);
+  @require_once box-shadow($progress-box-shadow);
 }
 
 .progress-bar {
@@ -26,11 +26,11 @@
   text-align: center;
   white-space: nowrap;
   background-color: $progress-bar-bg;
-  @include transition($progress-bar-transition);
+  @require_once transition($progress-bar-transition);
 }
 
 .progress-bar-striped {
-  @include gradient-striped();
+  @require_once gradient-striped();
   background-size: $progress-height $progress-height;
 }
 

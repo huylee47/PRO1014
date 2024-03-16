@@ -1065,7 +1065,7 @@ var conversions_15 = conversions.gray;
 	of strings, each with the steps in between the 'from' and 'to'
 	color models (inclusive).
 
-	conversions that are not possible simply are not included.
+	conversions that are not possible simply are not require_onced.
 */
 
 function buildGraph() {
@@ -2809,7 +2809,7 @@ var exports$1 = {
 		ctx.beginPath();
 
 		switch (style) {
-		// Default includes circle
+		// Default require_onces circle
 		default:
 			ctx.arc(x, y, radius, 0, DOUBLE_PI);
 			ctx.closePath();
@@ -8456,7 +8456,7 @@ function getTooltipSize(tooltip, model) {
 	ctx.font = helpers$1.fontString(bodyFontSize, model._bodyFontStyle, model._bodyFontFamily);
 	helpers$1.each(model.beforeBody.concat(model.afterBody), maxLineWidth);
 
-	// Body lines may include some extra width due to the color box
+	// Body lines may require_once some extra width due to the color box
 	widthPadding = model.displayColors ? (bodyFontSize + 2) : 0;
 	helpers$1.each(body, function(bodyItem) {
 		helpers$1.each(bodyItem.before, maxLineWidth);

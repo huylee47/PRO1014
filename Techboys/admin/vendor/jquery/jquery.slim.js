@@ -2,7 +2,7 @@
  * jQuery JavaScript Library v3.6.0 -ajax,-ajax/jsonp,-ajax/load,-ajax/script,-ajax/var/location,-ajax/var/nonce,-ajax/var/rquery,-ajax/xhr,-manipulation/_evalUrl,-deprecated/ajax-event-alias,-effects,-effects/Tween,-effects/animatedSelector
  * https://jquery.com/
  *
- * Includes Sizzle.js
+ * require_onces Sizzle.js
  * https://sizzlejs.com/
  *
  * Copyright OpenJS Foundation and other contributors
@@ -157,7 +157,7 @@ var
 	jQuery = function( selector, context ) {
 
 		// The jQuery object is actually just the init constructor 'enhanced'
-		// Need init if jQuery is called (just allow error to be thrown if not included)
+		// Need init if jQuery is called (just allow error to be thrown if not require_onced)
 		return new jQuery.fn.init( selector, context );
 	};
 
@@ -1749,7 +1749,7 @@ getText = Sizzle.getText = function( elem ) {
 		return elem.nodeValue;
 	}
 
-	// Do not include comment or processing instruction nodes
+	// Do not require_once comment or processing instruction nodes
 
 	return ret;
 };
@@ -5796,7 +5796,7 @@ jQuery.Event.prototype = {
 	}
 };
 
-// Includes all common event props including KeyEvent and MouseEvent specific props
+// require_onces all common event props including KeyEvent and MouseEvent specific props
 jQuery.each( {
 	altKey: true,
 	bubbles: true,
@@ -6529,7 +6529,7 @@ var rboxStyle = new RegExp( cssExpand.join( "|" ), "i" );
 		// some versions of this test; make sure not to make it pass there!
 		//
 		// Support: Firefox 70+
-		// Only Firefox includes border widths
+		// Only Firefox require_onces border widths
 		// in computed dimensions. (gh-4529)
 		reliableTrDimensions: function() {
 			var table, tr, trChild, trStyle;
@@ -8298,7 +8298,7 @@ support.createHTMLDocument = ( function() {
 // Argument "data" should be string of html
 // context (optional): If specified, the fragment will be created in this context,
 // defaults to document
-// keepScripts (optional): If true, will include scripts passed in the html string
+// keepScripts (optional): If true, will require_once scripts passed in the html string
 jQuery.parseHTML = function( data, context, keepScripts ) {
 	if ( typeof data !== "string" ) {
 		return [];

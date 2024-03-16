@@ -210,7 +210,7 @@
     },
     jQueryDetection: function jQueryDetection() {
       if (typeof $__default['default'] === 'undefined') {
-        throw new TypeError('Bootstrap\'s JavaScript requires jQuery. jQuery must be included before Bootstrap\'s JavaScript.');
+        throw new TypeError('Bootstrap\'s JavaScript requires jQuery. jQuery must be require_onced before Bootstrap\'s JavaScript.');
       }
 
       var version = $__default['default'].fn.jquery.split(' ')[0].split('.');

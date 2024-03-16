@@ -10,7 +10,7 @@
   height: $input-height;
   padding: $input-padding-y $input-padding-x;
   font-family: $input-font-family;
-  @include font-size($input-font-size);
+  @require_once font-size($input-font-size);
   font-weight: $input-font-weight;
   line-height: $input-line-height;
   color: $input-color;
@@ -19,10 +19,10 @@
   border: $input-border-width solid $input-border-color;
 
   // Note: This has no effect on <select>s in some browsers, due to the limited stylability of `<select>`s in CSS.
-  @include border-radius($input-border-radius, 0);
+  @require_once border-radius($input-border-radius, 0);
 
-  @include box-shadow($input-box-shadow);
-  @include transition($input-transition);
+  @require_once box-shadow($input-box-shadow);
+  @require_once transition($input-transition);
 
   // Unstyle the caret on `<select>`s in IE10+.
   &::-ms-expand {
@@ -37,7 +37,7 @@
   }
 
   // Customize the `:focus` state to imitate native WebKit styles.
-  @include form-control-focus($ignore-warning: true);
+  @require_once form-control-focus($ignore-warning: true);
 
   // Placeholder
   &::placeholder {
@@ -98,21 +98,21 @@ select.form-control {
   padding-top: add($input-padding-y, $input-border-width);
   padding-bottom: add($input-padding-y, $input-border-width);
   margin-bottom: 0; // Override the `<label>/<legend>` default
-  @include font-size(inherit); // Override the `<legend>` default
+  @require_once font-size(inherit); // Override the `<legend>` default
   line-height: $input-line-height;
 }
 
 .col-form-label-lg {
   padding-top: add($input-padding-y-lg, $input-border-width);
   padding-bottom: add($input-padding-y-lg, $input-border-width);
-  @include font-size($input-font-size-lg);
+  @require_once font-size($input-font-size-lg);
   line-height: $input-line-height-lg;
 }
 
 .col-form-label-sm {
   padding-top: add($input-padding-y-sm, $input-border-width);
   padding-bottom: add($input-padding-y-sm, $input-border-width);
-  @include font-size($input-font-size-sm);
+  @require_once font-size($input-font-size-sm);
   line-height: $input-line-height-sm;
 }
 
@@ -127,7 +127,7 @@ select.form-control {
   width: 100%;
   padding: $input-padding-y 0;
   margin-bottom: 0; // match inputs if this class comes on inputs with default margins
-  @include font-size($input-font-size);
+  @require_once font-size($input-font-size);
   line-height: $input-line-height;
   color: $input-plaintext-color;
   background-color: transparent;
@@ -152,17 +152,17 @@ select.form-control {
 .form-control-sm {
   height: $input-height-sm;
   padding: $input-padding-y-sm $input-padding-x-sm;
-  @include font-size($input-font-size-sm);
+  @require_once font-size($input-font-size-sm);
   line-height: $input-line-height-sm;
-  @include border-radius($input-border-radius-sm);
+  @require_once border-radius($input-border-radius-sm);
 }
 
 .form-control-lg {
   height: $input-height-lg;
   padding: $input-padding-y-lg $input-padding-x-lg;
-  @include font-size($input-font-size-lg);
+  @require_once font-size($input-font-size-lg);
   line-height: $input-line-height-lg;
-  @include border-radius($input-border-radius-lg);
+  @require_once border-radius($input-border-radius-lg);
 }
 
 // stylelint-disable-next-line no-duplicate-selectors
@@ -256,11 +256,11 @@ textarea.form-control {
 //
 // Provide feedback to users when form field values are valid or invalid. Works
 // primarily for client-side validation via scoped `:invalid` and `:valid`
-// pseudo-classes but also includes `.is-invalid` and `.is-valid` classes for
+// pseudo-classes but also require_onces `.is-invalid` and `.is-valid` classes for
 // server side validation.
 
 @each $state, $data in $form-validation-states {
-  @include form-validation-state($state, map-get($data, color), map-get($data, icon));
+  @require_once form-validation-state($state, map-get($data, color), map-get($data, icon));
 }
 
 // Inline forms
@@ -285,7 +285,7 @@ textarea.form-control {
   }
 
   // Kick in the inline
-  @include media-breakpoint-up(sm) {
+  @require_once media-breakpoint-up(sm) {
     label {
       display: flex;
       align-items: center;

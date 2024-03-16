@@ -33,11 +33,11 @@
       vertical-align: $caret-vertical-align;
       content: "";
       @if $direction == down {
-        @include caret-down();
+        @require_once caret-down();
       } @else if $direction == up {
-        @include caret-up();
+        @require_once caret-up();
       } @else if $direction == right {
-        @include caret-right();
+        @require_once caret-right();
       }
     }
 
@@ -51,7 +51,7 @@
         margin-right: $caret-spacing;
         vertical-align: $caret-vertical-align;
         content: "";
-        @include caret-left();
+        @require_once caret-left();
       }
     }
 
