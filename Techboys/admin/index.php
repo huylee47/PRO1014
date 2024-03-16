@@ -8,7 +8,10 @@ if (($_GET == [])) {
         $act = $_GET['act'];
         switch ($act) {
             case 'listdanhmuc':
-                include "view/danhmuc/list.php";
+                include "controller/danhmuc/list.php";
+                break;
+            case 'themdanhmuc':
+                include "controller/danhmuc/add.php";
                 break;
             case 'sanpham':
                 include "lienhe.php";
