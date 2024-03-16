@@ -29,7 +29,7 @@
       @extend %grid-column;
     }
 
-    @include media-breakpoint-up($breakpoint, $breakpoints) {
+    @require_once media-breakpoint-up($breakpoint, $breakpoints) {
       // Provide basic `.col-{bp}` classes for equal-width flexbox columns
       .col#{$infix} {
         flex-basis: 0;
@@ -40,19 +40,19 @@
       @if $grid-row-columns > 0 {
         @for $i from 1 through $grid-row-columns {
           .row-cols#{$infix}-#{$i} {
-            @include row-cols($i);
+            @require_once row-cols($i);
           }
         }
       }
 
       .col#{$infix}-auto {
-        @include make-col-auto();
+        @require_once make-col-auto();
       }
 
       @if $columns > 0 {
         @for $i from 1 through $columns {
           .col#{$infix}-#{$i} {
-            @include make-col($i, $columns);
+            @require_once make-col($i, $columns);
           }
         }
       }
@@ -70,7 +70,7 @@
         @for $i from 0 through ($columns - 1) {
           @if not ($infix == "" and $i == 0) { // Avoid emitting useless .offset-0
             .offset#{$infix}-#{$i} {
-              @include make-col-offset($i, $columns);
+              @require_once make-col-offset($i, $columns);
             }
           }
         }

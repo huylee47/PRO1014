@@ -17,5 +17,5 @@
 }
 
 %fa-icon {
-  @include fa-icon;
+  @require_once fa-icon;
 }

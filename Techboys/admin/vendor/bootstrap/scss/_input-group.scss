@@ -42,7 +42,7 @@
 
   > .form-control,
   > .custom-select {
-    &:not(:first-child) { @include border-left-radius(0); }
+    &:not(:first-child) { @require_once border-left-radius(0); }
   }
 
   // Custom file inputs have more complex markup, thus requiring different
@@ -52,14 +52,14 @@
     align-items: center;
 
     &:not(:last-child) .custom-file-label,
-    &:not(:first-child) .custom-file-label { @include border-left-radius(0); }
+    &:not(:first-child) .custom-file-label { @require_once border-left-radius(0); }
   }
 
   &:not(.has-validation) {
     > .form-control:not(:last-child),
     > .custom-select:not(:last-child),
     > .custom-file:not(:last-child) .custom-file-label::after {
-      @include border-right-radius(0);
+      @require_once border-right-radius(0);
     }
   }
 
@@ -67,7 +67,7 @@
     > .form-control:nth-last-child(n + 3),
     > .custom-select:nth-last-child(n + 3),
     > .custom-file:nth-last-child(n + 3) .custom-file-label::after {
-      @include border-right-radius(0);
+      @require_once border-right-radius(0);
     }
   }
 }
@@ -117,7 +117,7 @@
   align-items: center;
   padding: $input-padding-y $input-padding-x;
   margin-bottom: 0; // Allow use of <label> elements by overriding our default margin-bottom
-  @include font-size($input-font-size); // Match inputs
+  @require_once font-size($input-font-size); // Match inputs
   font-weight: $font-weight-normal;
   line-height: $input-line-height;
   color: $input-group-addon-color;
@@ -125,7 +125,7 @@
   white-space: nowrap;
   background-color: $input-group-addon-bg;
   border: $input-border-width solid $input-group-addon-border-color;
-  @include border-radius($input-border-radius);
+  @require_once border-radius($input-border-radius);
 
   // Nuke default margins from checkboxes and radios to vertically center within.
   input[type="radio"],
@@ -152,9 +152,9 @@
 .input-group-lg > .input-group-prepend > .btn,
 .input-group-lg > .input-group-append > .btn {
   padding: $input-padding-y-lg $input-padding-x-lg;
-  @include font-size($input-font-size-lg);
+  @require_once font-size($input-font-size-lg);
   line-height: $input-line-height-lg;
-  @include border-radius($input-border-radius-lg);
+  @require_once border-radius($input-border-radius-lg);
 }
 
 .input-group-sm > .form-control:not(textarea),
@@ -169,9 +169,9 @@
 .input-group-sm > .input-group-prepend > .btn,
 .input-group-sm > .input-group-append > .btn {
   padding: $input-padding-y-sm $input-padding-x-sm;
-  @include font-size($input-font-size-sm);
+  @require_once font-size($input-font-size-sm);
   line-height: $input-line-height-sm;
-  @include border-radius($input-border-radius-sm);
+  @require_once border-radius($input-border-radius-sm);
 }
 
 .input-group-lg > .custom-select,
@@ -195,7 +195,7 @@
 .input-group.has-validation > .input-group-append:nth-last-child(n + 3) > .input-group-text,
 .input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle),
 .input-group > .input-group-append:last-child > .input-group-text:not(:last-child) {
-  @include border-right-radius(0);
+  @require_once border-right-radius(0);
 }
 
 .input-group > .input-group-append > .btn,
@@ -204,5 +204,5 @@
 .input-group > .input-group-prepend:not(:first-child) > .input-group-text,
 .input-group > .input-group-prepend:first-child > .btn:not(:first-child),
 .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
-  @include border-left-radius(0);
+  @require_once border-left-radius(0);
 }

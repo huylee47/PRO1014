@@ -97,7 +97,7 @@
 		 * Perform a jQuery selector action on the table's TR elements (from the tbody) and
 		 * return the resulting jQuery object.
 		 *  @param {string|node|jQuery} sSelector jQuery selector or node collection to act on
-		 *  @param {object} [oOpts] Optional parameters for modifying the rows to be included
+		 *  @param {object} [oOpts] Optional parameters for modifying the rows to be require_onced
 		 *  @param {string} [oOpts.filter=none] Select TR elements that meet the current filter
 		 *    criterion ("applied") or all TR elements (i.e. no filter).
 		 *  @param {string} [oOpts.order=current] Order of the TR elements in the processed array.
@@ -145,7 +145,7 @@
 		 * This method is often useful in-combination with $ where both functions are given the
 		 * same parameters and the array indexes will match identically.
 		 *  @param {string|node|jQuery} sSelector jQuery selector or node collection to act on
-		 *  @param {object} [oOpts] Optional parameters for modifying the rows to be included
+		 *  @param {object} [oOpts] Optional parameters for modifying the rows to be require_onced
 		 *  @param {string} [oOpts.filter=none] Select elements that meet the current filter
 		 *    criterion ("applied") or all elements (i.e. no filter).
 		 *  @param {string} [oOpts.order=current] Order of the data in the processed array.
@@ -1942,7 +1942,7 @@
 			browser.barWidth = outer[0].offsetWidth - outer[0].clientWidth;
 	
 			// IE6/7 will oversize a width 100% element inside a scrolling element, to
-			// include the width of the scrollbar, while other browsers ensure the inner
+			// require_once the width of the scrollbar, while other browsers ensure the inner
 			// element is contained without forcing scrolling
 			browser.bScrollOversize = inner[0].offsetWidth === 100 && outer[0].clientWidth !== 100;
 	
@@ -3315,10 +3315,10 @@
 	 * already a cell in that position.
 	 *  @param {object} oSettings dataTables settings object
 	 *  @param array {objects} aoSource Layout array from _fnDetectHeader
-	 *  @param {boolean} [bIncludeHidden=false] If true then include the hidden columns in the calc,
+	 *  @param {boolean} [brequire_onceHidden=false] If true then require_once the hidden columns in the calc,
 	 *  @memberof DataTable#oApi
 	 */
-	function _fnDrawHead( oSettings, aoSource, bIncludeHidden )
+	function _fnDrawHead( oSettings, aoSource, brequire_onceHidden )
 	{
 		var i, iLen, j, jLen, k, kLen, n, nLocalTr;
 		var aoLocal = [];
@@ -3331,9 +3331,9 @@
 			return;
 		}
 	
-		if (  bIncludeHidden === undefined )
+		if (  brequire_onceHidden === undefined )
 		{
-			bIncludeHidden = false;
+			brequire_onceHidden = false;
 		}
 	
 		/* Make a copy of the master layout array, but without the visible columns in it */
@@ -3345,7 +3345,7 @@
 			/* Remove any columns which are currently hidden */
 			for ( j=iColumns-1 ; j>=0 ; j-- )
 			{
-				if ( !oSettings.aoColumns[j].bVisible && !bIncludeHidden )
+				if ( !oSettings.aoColumns[j].bVisible && !brequire_onceHidden )
 				{
 					aoLocal[i].splice( j, 1 );
 				}
@@ -4366,7 +4366,7 @@
 		for ( var i=0, ien=filters.length ; i<ien ; i++ ) {
 			var rows = [];
 	
-			// Loop over each row and see if it should be included
+			// Loop over each row and see if it should be require_onced
 			for ( var j=0, jen=displayRows.length ; j<jen ; j++ ) {
 				rowIdx = displayRows[ j ];
 				row = settings.aoData[ rowIdx ];
@@ -5347,7 +5347,7 @@
 			// No x scrolling
 			tableStyle.width = "100%";
 	
-			// IE7 will make the width of the table when 100% include the scrollbar
+			// IE7 will make the width of the table when 100% require_once the scrollbar
 			// - which is shouldn't. When there is a scrollbar we need to take this
 			// into account.
 			if ( ie67 && (table.find('tbody').height() > divBodyEl.offsetHeight ||
@@ -9742,7 +9742,7 @@
 		"asSorting": null,
 	
 		/**
-		 * Flag to indicate if the column is searchable, and thus should be included
+		 * Flag to indicate if the column is searchable, and thus should be require_onced
 		 * in the filtering or not.
 		 *  @type boolean
 		 */
@@ -14021,7 +14021,7 @@
 		 * searching, and a lot more comprehensive as it allows you complete control
 		 * over the searching logic. Each element in this array is a function
 		 * (parameters described below) that is called for every row in the table,
-		 * and your logic decides if it should be included in the searching data set
+		 * and your logic decides if it should be require_onced in the searching data set
 		 * or not.
 		 *
 		 * Searching functions have the following input parameters:
@@ -14036,7 +14036,7 @@
 		 *
 		 * And the following return is expected:
 		 *
-		 * * {boolean} Include the row in the searched result set (true) or not
+		 * * {boolean} require_once the row in the searched result set (true) or not
 		 *   (false)
 		 *
 		 * Note that as with the main search ability in DataTables, technically this
