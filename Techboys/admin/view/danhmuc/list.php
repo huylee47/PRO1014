@@ -25,6 +25,7 @@
               <tr>
                 <td><?= $item['id_danhmuc'] ?></td>
                 <td><?= $item['ten_danhmuc'] ?></td>
+                <td><a class="btn btn-primary" href="index.php?act=chitietdanhmuc&id=<?= $item['id_danhmuc'] ?>">Chi tiết</a></td>
                 <td><a class="btn btn-primary" href="index.php?act=suadanhmuc&id=<?= $item['id_danhmuc'] ?>">Sửa</a>
                   <a class="btn btn-primary" href="index.php?act=xoadanhmuc&id=<?= $item['id_danhmuc'] ?>">Xóa</a>
                 </td>

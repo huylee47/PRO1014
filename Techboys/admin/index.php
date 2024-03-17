@@ -19,8 +19,8 @@ if (($_GET == [])) {
             case 'suadanhmuc':
                 require_once "controller/danhmuc/update.php";
                 break;
-            case 'blog':
-                require_once "blog.php";
+            case 'chitietdanhmuc':
+                require_once "controller/sanpham/list_sanpham.php";
                 break;
             case 'chitietsanpham':
                 require_once "chitietsanpham.php";
