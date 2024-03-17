@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,14 +41,25 @@
                                 <a href="mailto:fastsales@gmail.com">techboys@gmail.com</a>
                             </div>
                             <div class="top_bar_content ml-auto">
-
+                            <?php
+                            if(isset($_SESSION['user'])){
+                                extract($_SESSION['user']);
+                            
+                            ?>
                                 <div class="top_bar_user">
+                                    Hello <?php echo $username;?>
+                                    
+                                </div>
+                                <?php }else{ 
+                                    ?>
+                                    <div class="top_bar_user">
                                     <div class="user_icon">
                                         <img src="images/user.svg" alt="" />
                                     </div>
                                     <div><a href="#">Đăng ký</a></div>
-                                    <div><a href="#">Đăng nhập</a></div>
+                                    <div><a href="dangnhap.php">Đăng nhập</a></div>
                                 </div>
+                                <?php }?>
                             </div>
                         </div>
                     </div>
