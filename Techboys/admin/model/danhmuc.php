@@ -12,4 +12,8 @@ function xoa_danhmuc($id){
     $sql= "DELETE FROM danhmuc WHERE id_danhmuc = '$id'";
     pdo_execute($sql);
 }
+function list_motdanhmuc($id){
+    $sql= "SELECT * FROM danhmuc WHERE id_danhmuc =$id";
+    return pdo_query_one($sql);
+}
  ?>
