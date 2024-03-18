@@ -4,7 +4,12 @@ require_once "pdo.php";
     $sql= "SELECT * FROM danhmuc";
     return pdo_query($sql);
  }
-function them_danhmuc(){
-    $sql= "INSERT INTO danhmuc VALUES";
+function add_danhmuc($ten_dm){
+    $sql= "INSERT INTO danhmuc  (ten_danhmuc) VALUES('$ten_dm')";
+    pdo_execute($sql);
+}
+function change_danhmuc($ten_dm){
+    $sql = "UPDATE danhmuc SET ten_danhmuc='.$ten_dm.'";
+    pdo_execute($sql);
 }
  ?>
