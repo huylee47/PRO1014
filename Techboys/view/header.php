@@ -43,12 +43,12 @@
                             <div class="top_bar_content ml-auto">
                             <?php
                             if(isset($_SESSION['user'])){
-                                extract($_SESSION['user']);
+                                $user=$_SESSION['user'];
                             
                             ?>
                                 <div class="top_bar_user">
-                                    Hello <?php echo $username;?>
-                                    
+                                    Hello <?=$user?> </br>
+                                    <div><a href="dangxuat.php">Đăng suất</a></div>
                                 </div>
                                 <?php }else{ 
                                     ?>

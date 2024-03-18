@@ -1,4 +1,5 @@
 <?php
+session_start();
 // aaaaaaaaaaaaaaaaaaaaaa
 require_once 'header.php';
 if (($_GET == [])) {
@@ -27,3 +28,4 @@ if (($_GET == [])) {
 }
 
 require_once 'footer.php';
+?>
