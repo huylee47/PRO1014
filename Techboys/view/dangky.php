@@ -1,12 +1,4 @@
-<?php
-require_once "model/taikhoan.php";
-    if (isset($_POST['dangky'])){
-        $email = $_POST['email'];
-        $user = $_POST['user'];
-        $pass = $_POST['password'];
-        insert_taikhoan($email, $user, $pass);
-        }
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,8 +26,18 @@ require_once "model/taikhoan.php";
             </div>
             <div class="input-field">
                 <input type="email" class="input" name="email" placeholder="Email" required>
-                <i class="bx bx-lock-alt"></i>
+                <i class="bx bx-mail-send"></i>
             </div>
+            <?php
+require_once "model/taikhoan.php";
+    if (isset($_POST['dangky'])){
+        $email = $_POST['email'];
+        $user = $_POST['user'];
+        $pass = $_POST['password'];
+        insert_taikhoan($email, $user, $pass);
+        echo $thongbao= "Đăng ký thành công";
+        }
+?>
             <div class="input-field">
                 <input type="submit" class="submit" name="dangky" value="Đăng ký">
             </div>
