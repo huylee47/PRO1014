@@ -25,6 +25,7 @@ if (($_GET == [])) {
             case 'chitietsanpham':
                 require_once "chitietsanpham.php";
                 break;
+          
         }
     }
 }
