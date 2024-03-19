@@ -54,7 +54,7 @@
             <span>Danh mục</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.php?act=listdanhmuc">
+          <a class="nav-link" href="index.php?act=listsanpham">
             <i class="fas fa-fw fa-table"></i>
             <span>Sản phẩm</span></a>
         </li>
