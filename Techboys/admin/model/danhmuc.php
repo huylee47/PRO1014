@@ -22,7 +22,6 @@ function list_motdanhmuc($id)
 }
 function update_danhmuc($id, $tendm)
 {
-
     $sql = "UPDATE danhmuc SET ten_danhmuc = '$tendm' WHERE id_danhmuc = '$id'";
     pdo_execute($sql);
 }
