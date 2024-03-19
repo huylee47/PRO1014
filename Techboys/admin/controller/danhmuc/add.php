@@ -7,5 +7,6 @@ if (!isset($_POST['themdanhmuc'])) {
         $tendm = $_POST['ten'];
         them_danhmuc($tendm);
     }
-    header('location: index.php?act=listdanhmuc');
+    echo "<script type='text/javascript'>window.top.location='http://localhost/PRO1014/Techboys/admin/index.php?act=listdanhmuc';</script>";
+    exit;
 }
