@@ -6,10 +6,9 @@ if (isset($_GET['id'])) {
 }
 if(isset($_POST['capnhat'])){
     $id = $_POST['id'];
-    $tendanhmuc = $_POST['ten'];
-    
-    // update_danhmuc($id, $tendanhmuc);
-    header('location: index.php?chucnang=listdanhmuc');
+    $tendm = $_POST['ten'];
+    update_danhmuc($id, $tendm);
+    header('location: index.php?act=listdanhmuc');
 }
 
 ?>
