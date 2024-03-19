@@ -1,3 +1,12 @@
+<?php
+require_once "model/taikhoan.php";
+    if (isset($_POST['dangky'])){
+        $email = $_POST['email'];
+        $user = $_POST['user'];
+        $pass = $_POST['password'];
+        insert_taikhoan($email, $user, $pass);
+        }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,13 +15,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/dangnhap.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Ludiflex | Login</title>
+    <title>Ludiflex | Register</title>
 </head>
 <body>
     <div class="box">
         <div class="container">
             <div class="top-header">
-                <header>Login</header>
+                <header>Đăng ký</header>
             </div>
             <form action="" method="post">
             <div class="input-field">
@@ -23,29 +32,17 @@
                 <input type="password" class="input" name="password" placeholder="Password" required>
                 <i class="bx bx-lock-alt"></i>
             </div>
-            <?php
-            session_start();
-            require_once "model/taikhoan.php";
-            if(isset($_POST['dangnhap'])){
-                $username=$_POST['user'];
-                $password=$_POST['password'];
-                $checkuser= check_user($username,$password);
-                if(is_array($checkuser)){
-                    $_SESSION['user']=$username;
-                    header('Location: index.php');
-                }else{
-                    echo $thongbao= "Tài khoản không tồn tại";
-                }
-            }
-            ?>
             <div class="input-field">
-                <input type="submit" class="submit" name="dangnhap" value="Đăng nhập">
+                <input type="email" class="input" name="email" placeholder="Email" required>
+                <i class="bx bx-lock-alt"></i>
             </div>
-            
+            <div class="input-field">
+                <input type="submit" class="submit" name="dangky" value="Đăng ký">
+            </div>
 </form>
             <div class="bottom">
                 <div class="right">
-                <label><a href="dangky.php">Bạn chưa có tài khoản?</a></label>
+                <label><a href="dangnhap.php">Bạn đã có tài khoản?</a></label>
                 </div>
             </div>
         </div>
