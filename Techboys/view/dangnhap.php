@@ -12,7 +12,7 @@
     <div class="box">
         <div class="container">
             <div class="top-header">
-                <header>Login</header>
+                <header>Đăng nhập</header>
             </div>
             <form action="" method="post">
             <div class="input-field">
