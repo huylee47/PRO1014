@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,29 +18,26 @@
     </div>
     <div class="input-group">
       <label>Mật khẩu:</label>
-      <input type="password"name="password" required>
+      <input type="password" name="password" required>
     </div>
     <?php
         session_start();
         require_once "model/taikhoan.php";
         if(isset($_POST['dangnhap'])){
-            $username=$_POST['user'];
-            $password=$_POST['password'];
-            $checkuser= check_user($username,$password);
+            $username = $_POST['user'];
+            $password = $_POST['password'];
+            $checkuser = check_user($username, $password);
             if(is_array($checkuser)){
-                $_SESSION['user']=$username;
-                ?>
-                <script>
-                  alert('Đăng nhập thành công');
-                  window.location.href = 'index.php';
-                </script>
-                <?php
-            }else{
-                echo $thongbao= "Tài khoản không tồn tại";
+                $_SESSION['user'] = $username;
+                $_SESSION['quyen'] = $checkuser['quyen'];
+                echo $_SESSION['quyen'];
+                header("location:index.php");
+            } else {
+                echo $thongbao = "Tài khoản không tồn tại";
             }
         }
-        ?>
-    <button type="submit" class="btn" name="dangnhap" >Đăng nhập</button>
+    ?>
+    <button type="submit" class="btn" name="dangnhap">Đăng nhập</button>
   </form>
   <div class="social-icons">
     <a href="test.php"><i class='bx bxl-facebook'></i></a>

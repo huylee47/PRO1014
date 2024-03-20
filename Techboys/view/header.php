@@ -41,8 +41,7 @@
                                 <a href="mailto:fastsales@gmail.com">techboys@gmail.com</a>
                             </div>
                             <div class="top_bar_content ml-auto">
-                            <?php
-                            session_start();
+                            <?php                    
                             if(isset($_SESSION['user'])){
                                 $username = $_SESSION['user'];
                             ?>
