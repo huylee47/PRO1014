@@ -20,8 +20,12 @@ if (($_GET == [])) {
                 require_once "controller/danhmuc/update.php";
                 break;
             case 'chitietdanhmuc':
-                require_once "controller/sanpham/list_sanpham.php";
+                require_once "controller/sanpham/list.php";
                 break;
+            case 'listsanpham':
+                require_once "controller/sanpham/list_sp_all.php";
+                break;
+
             case 'chitietsanpham':
                 require_once "chitietsanpham.php";
                 break;

@@ -1,7 +1,6 @@
 <!-- Begin Page Content -->
 <div class="container-fluid">
   <!-- Page Heading -->
-  <h1 class="h3 mb-2 text-gray-800">Chi tiết danh mục</h1>
   <!-- DataTales Example -->
   <div class="card shadow mb-4">
     <div class="card-header py-3">
@@ -20,7 +19,7 @@
           </thead>
           <tbody>
             <?php
-            foreach ($listSanPham as $key => $item) {
+            foreach ($listSanPhamAll as $key => $item) {
             ?>
               <tr>
                 <td><?= $item['id_sanpham'] ?></td>
