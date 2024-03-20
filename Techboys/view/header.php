@@ -42,14 +42,13 @@
                             </div>
                             <div class="top_bar_content ml-auto">
                             <?php
-                           
+                            session_start();
                             if(isset($_SESSION['user'])){
                                 $username = $_SESSION['user'];
                             ?>
                                 <div class="top_bar_user">
-                                    Hello <?php echo $username;?>
+                                    <div style="margin-right: 10px;">Hello <?php echo $username;?></div>    
                                     <div><a href="dangxuat.php">Đăng xuất</a></div>
-
                                 </div>
                                 <?php }else{ 
                                     ?>
