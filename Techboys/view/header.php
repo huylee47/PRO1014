@@ -41,15 +41,13 @@
                                 <a href="mailto:fastsales@gmail.com">techboys@gmail.com</a>
                             </div>
                             <div class="top_bar_content ml-auto">
-                            <?php
-                           
+                            <?php                    
                             if(isset($_SESSION['user'])){
                                 $username = $_SESSION['user'];
                             ?>
                                 <div class="top_bar_user">
-                                    Hello <?php echo $username;?>
+                                    <div style="margin-right: 10px;">Hello <?php echo $username;?></div>    
                                     <div><a href="dangxuat.php">Đăng xuất</a></div>
-
                                 </div>
                                 <?php }else{ 
                                     ?>

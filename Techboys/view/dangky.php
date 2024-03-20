@@ -1,4 +1,17 @@
-
+<?php
+require_once "model/taikhoan.php";
+if (isset($_POST['dangky'])) {
+    $email = $_POST['email'];
+    $user = $_POST['user'];
+    $pass = $_POST['password'];
+    // Thực hiện thêm tài khoản
+    insert_taikhoan($email, $user, $pass);?>
+                <script>
+                  alert('Đăng ký thành công');
+                  window.location.href = 'dangnhap.php';
+                </script><?php
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,47 +20,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/dangnhap.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Ludiflex | Register</title>
+    <title>Techboys | Register</title>
 </head>
 <body>
-    <div class="box">
-        <div class="container">
-            <div class="top-header">
-                <header>Đăng ký</header>
-            </div>
-            <form action="" method="post">
-            <div class="input-field">
-                <input type="text" class="input" name="user" placeholder="Username" required>
-                <i class="bx bx-user"></i>
-            </div>
-            <div class="input-field">
-                <input type="password" class="input" name="password" placeholder="Password" required>
-                <i class="bx bx-lock-alt"></i>
-            </div>
-            <div class="input-field">
-                <input type="email" class="input" name="email" placeholder="Email" required>
-                <i class="bx bx-mail-send"></i>
-            </div>
-            <?php
-require_once "model/taikhoan.php";
-    if (isset($_POST['dangky'])){
-        $email = $_POST['email'];
-        $user = $_POST['user'];
-        $pass = $_POST['password'];
-        insert_taikhoan($email, $user, $pass);
-        echo $thongbao= "Đăng ký thành công";
-        }
-?>
-            <div class="input-field">
-                <input type="submit" class="submit" name="dangky" value="Đăng ký">
-            </div>
-</form>
-            <div class="bottom">
-                <div class="right">
-                <label><a href="dangnhap.php">Bạn đã có tài khoản?</a></label>
-                </div>
-            </div>
-        </div>
+<div class="container">
+  <h2>Đăng ký</h2>
+  <form action="#" method="post">
+    <div class="input-group">
+      <label>Tên đăng nhập:</label>
+      <input type="text" name="user" required>
     </div>
+    <div class="input-group">
+      <label>Mật khẩu:</label>
+      <input type="password" name="password" required>
+    </div>
+    <div class="input-group">
+      <label>Email:</label>
+      <input type="email" name="email" required>
+    </div>
+    <button type="submit" class="btn" name="dangky">Đăng ký</button>
+  </form>
+  <p>Đã có tài khoản? <a href="dangnhap.php">Đăng nhập</a></p>
+</div>
 </body>
 </html>
