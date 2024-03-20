@@ -38,13 +38,8 @@
 						</ul>
 					</div>
 					<!-- Order Total -->
-				<div class="order_total">
-								<div class="order_total_content text-md-right">
-									<div class="order_total_title">Tổng:</div>
-									<div class="order_total_amount">$2000</div>
-								</div>
-							</div>
-					<br>
+                     
+					<br><br>
 					<form action="">
 						<h3>Thông tin khách hàng</h3>
 						<div>
@@ -67,22 +62,32 @@
 							<label for="">Ghi chú</label>
 							<input required type="text" name="ghichu">
 						</div>
-						<div>
-        <label >Phương thức thanh toán</label>
-        <select  name="payment-method" required>
-            <option value="transfer">Chuyển khoản</option>
-            <option value="cash">Tiền mặt</option>
-            <!-- Thêm các phương thức thanh toán khác tại đây -->
-        </select>
-    </div>
+						
 				</div>
 				</form>
-				
-				
-				<div>
-			<div class="cart_buttons">
-						<button type="button" class="button cart_button_checkout">Đặt hàng</button>
+				<div class="tongtien">
+					<h3>Tổng tiền giỏ hàng</h3>
+					<p><span>Tiền tạm tính</span> <span>114,000đ</span></p>
+					<p><span>Phí vận chuyển</span> <span>10,000đ</span></p>
+					<p><span>Voucher</span> <span><select name="" class="voucher" required>
+								<option value="transfer"></option>
+								<option value="transfer">20%</option>
+								<option value="cash">30%</option>
+								<!-- Thêm các phương thức thanh toán khác tại đây -->
+							</select></span></p>
+							<p><span>Phương thức thanh toán</span> <span><select name="" class="voucher" required>
+								<option value="transfer"></option>
+								<option value="transfer">chuyển khoản</option>
+								<option value="cash">tiền mặt</option>
+								<!-- Thêm các phương thức thanh toán khác tại đây -->
+							</select></span></p>
+					<div class="total">
+						<p><span>Tổng tiền</span> <span>124,000đ</span></p>
 					</div>
+
+				</div>
+				<div class="cart_buttons">
+					<button type="button" class="button cart_button_checkout">Đặt hàng</button>
 				</div>
 			</div>
 		</div>
