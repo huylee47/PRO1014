@@ -14,8 +14,10 @@
             <tr>
               <th>ID</th>
               <th>Tên sản phẩm</th>
+              <th>Ảnh sản phẩm</th>
               <th>Giá</th>
               <th>Nguồn gốc</th>
+              <th colspan="2" style="text-align: center;">Chức năng</th>
             </tr>
           </thead>
           <tbody>
@@ -24,16 +26,17 @@
             ?>
               <tr>
                 <td><?= $item['id_sanpham'] ?></td>
-                <td><?= $item['ten_sp'] ?></td>
-                <td><?=$item['anh_sp']?></td>
+                <td><?= $item['ten_sanpham'] ?></td>
+                <td><img width="50" height="50" src="/PRO1014/Techboys/upload/<?php echo $item['img']?>"></img></td>
                 <td><?= $item['gia'] ?></td>
                 <td><?= $item['nguongoc'] ?></td>
-
+                <td><a class="btn btn-primary" href="index.php?act=suasanpham&id=<?= $item['id_sanpham'] ?>">Sửa</a></td>
+                <td> <a class="btn btn-primary" href="index.php?act=xoasanpham&id=<?= $item['id_sanpham'] ?>">Xóa</a></td>
               </tr>
             <?php } ?>
           </tbody>
         </table>
-        <a class="btn btn-primary" href="index.php?act=listdanhmuc">Danh sách</a>
+
       </div>
     </div>
   </div>

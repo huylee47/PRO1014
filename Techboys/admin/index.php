@@ -25,11 +25,12 @@ if (($_GET == [])) {
             case 'listsanpham':
                 require_once "controller/sanpham/list_sp_all.php";
                 break;
-
             case 'chitietsanpham':
                 require_once "chitietsanpham.php";
                 break;
-          
+            case 'themsanpham':
+                require_once "controller/sanpham/add.php";
+                break;
         }
     }
 }

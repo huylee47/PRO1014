@@ -4,4 +4,4 @@
     <input type="text" class="form-control" id="" name="ten">
   </div>
   <button type="submit" class="btn btn-primary" name="themdanhmuc">Thêm</button>
-</form>
+</form> 

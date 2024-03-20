@@ -15,7 +15,8 @@
             <tr>
               <th>ID</th>
               <th>Tên danh mục</th>
-              <th></th>
+              <th>Chi tiết sản phẩm</th>
+              <th colspan="2" style="text-align: center;">Chức năng</th>
             </tr>
           </thead>
           <tbody>
@@ -26,10 +27,8 @@
                 <td><?= $item['id_danhmuc'] ?></td>
                 <td><?= $item['ten_danhmuc'] ?></td>
                 <td><a class="btn btn-primary" href="index.php?act=chitietdanhmuc&id=<?= $item['id_danhmuc'] ?>">Chi tiết</a></td>
-                <td><a class="btn btn-primary" href="index.php?act=suadanhmuc&id=<?= $item['id_danhmuc'] ?>">Sửa</a>
-                  <a class="btn btn-primary" href="index.php?act=xoadanhmuc&id=<?= $item['id_danhmuc'] ?>">Xóa</a>
-                </td>
-
+                <td><a class="btn btn-primary" href="index.php?act=suadanhmuc&id=<?= $item['id_danhmuc'] ?>">Sửa</a></td>
+                <td> <a class="btn btn-primary" href="index.php?act=xoadanhmuc&id=<?= $item['id_danhmuc'] ?>">Xóa</a></td>
               </tr>
             <?php } ?>
           </tbody>
