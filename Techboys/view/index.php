@@ -23,6 +23,9 @@ if (($_GET == [])) {
             case 'chitietsanpham':
                 require_once "chitietsanpham.php";
                 break;
+                case 'chitiet_blog':
+                    require_once "chitiet_blog.php";
+                    break;
         }
     }
 }

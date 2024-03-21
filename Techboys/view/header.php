@@ -172,7 +172,7 @@
                                             <a href="index.php?act=cuahang">Cửa hàng<i class="fas fa-chevron-down"></i></a>
                                         </li>
                                         <li>
-                                            <a href="index.php?act=blog">Tin tức<i class="fas fa-chevron-down"></i></a>
+                                            <a href="index.php?act=chitiet_blog">Tin tức<i class="fas fa-chevron-down"></i></a>
                                         </li>
                                         <li>
                                             <a href="index.php?act=lienhe">Liên hệ<i class="fas fa-chevron-down"></i></a>
