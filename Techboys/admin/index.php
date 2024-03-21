@@ -34,9 +34,6 @@ if (($_GET == [])) {
                 break;
         }
     }
-} else {
-    // Nếu $_SESSION['quyen'] không tồn tại hoặc không có quyền truy cập, bạn có thể chuyển hướng người dùng hoặc hiển thị thông báo lỗi
-    echo "Bạn không có quyền truy cập vào trang này.";
 }
 
 require_once 'view/footer.php';
