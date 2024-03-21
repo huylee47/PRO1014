@@ -11,8 +11,8 @@
         <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
           <thead>
             <tr>
+              <th>ID Sản Phẩm</th>
               <th>ID Danh mục</th>
-              <th>ID</th>
               <th>Tên sản phẩm</th>
               <th>Ảnh sản phẩm</th>
               <th>Giá</th>

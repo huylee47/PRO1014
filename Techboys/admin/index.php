@@ -32,6 +32,12 @@ if (($_GET == [])) {
             case 'themsanpham':
                 require_once "controller/sanpham/add.php";
                 break;
+            case 'suasanpham':
+                require_once "controller/sanpham/update.php";
+                break;
+            case 'xoasanpham':
+                require_once "controller/sanpham/xoa.php";
+                break;
             case 'listvoucher':
                 require_once "controller/voucher/list.php";
                 break;
