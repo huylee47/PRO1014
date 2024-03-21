@@ -15,14 +15,14 @@
             <tr>
               <th>ID</th>
               <th>Tên voucher</th>
-            
+              <th>Giá giảm</th>
 
               <th></th>
             </tr>
           </thead>
           <tbody>
             <?php
-            foreach ($listdanhmuc as $key => $item) {
+            foreach ($listvoucher  as $key => $item) {
             ?>
               <tr>
                 <td><?= $item['id_danhmuc'] ?></td>

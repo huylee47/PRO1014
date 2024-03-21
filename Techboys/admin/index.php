@@ -26,8 +26,8 @@ if(isset($_SESSION['quyen']) && $_SESSION['quyen'] == 1) {
                 case 'chitietdanhmuc':
                     require_once "controller/sanpham/list_sanpham.php";
                     break;
-                case 'chitietsanpham':
-                    require_once "chitietsanpham.php";
+                case 'voucher':
+                    require_once "controller/voucher/list.php";
                     break;
             }
         }
