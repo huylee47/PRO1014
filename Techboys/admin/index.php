@@ -1,35 +1,37 @@
 <?php
 session_start();
 require_once 'view/header.php';
-
-// Kiểm tra xem $_SESSION['quyen'] tồn tại và có giá trị bằng một không
-if(isset($_SESSION['quyen']) && $_SESSION['quyen'] == 1) {
-    // Kiểm tra xem có tham số GET không
-    if(empty($_GET)) {
-        require_once 'view/home.php';
-    } else {
-        if(isset($_GET['act'])) {
-            $act = $_GET['act'];
-            switch ($act) {
-                case 'listdanhmuc':
-                    require_once "controller/danhmuc/list.php";
-                    break;
-                case 'themdanhmuc':
-                    require_once "controller/danhmuc/add.php";
-                    break;
-                case 'xoadanhmuc':
-                    require_once "controller/danhmuc/xoa.php";
-                    break;
-                case 'suadanhmuc':
-                    require_once "controller/danhmuc/update.php";
-                    break;
-                case 'chitietdanhmuc':
-                    require_once "controller/sanpham/list_sanpham.php";
-                    break;
-                case 'chitietsanpham':
-                    require_once "chitietsanpham.php";
-                    break;
-            }
+// aaaaaaaaaaaaaaaaaaaaaa
+if (($_GET == [])) {
+    require_once 'view/home.php';
+} else {
+    if (isset($_GET['act'])) {
+        $act = $_GET['act'];
+        switch ($act) {
+            case 'listdanhmuc':
+                require_once "controller/danhmuc/list.php";
+                break;
+            case 'themdanhmuc':
+                require_once "controller/danhmuc/add.php";
+                break;
+            case 'xoadanhmuc':
+                require_once "controller/danhmuc/xoa.php";
+                break;
+            case 'suadanhmuc':
+                require_once "controller/danhmuc/update.php";
+                break;
+            case 'chitietdanhmuc':
+                require_once "controller/sanpham/list.php";
+                break;
+            case 'listsanpham':
+                require_once "controller/sanpham/list_sp_all.php";
+                break;
+            case 'chitietsanpham':
+                require_once "chitietsanpham.php";
+                break;
+            case 'themsanpham':
+                require_once "controller/sanpham/add.php";
+                break;
         }
     }
 } else {

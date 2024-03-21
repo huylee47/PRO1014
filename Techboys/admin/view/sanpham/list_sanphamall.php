@@ -1,7 +1,6 @@
 <!-- Begin Page Content -->
 <div class="container-fluid">
   <!-- Page Heading -->
-  <h1 class="h3 mb-2 text-gray-800">Chi tiết danh mục</h1>
   <!-- DataTales Example -->
   <div class="card shadow mb-4">
     <div class="card-header py-3">
@@ -12,6 +11,7 @@
         <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
           <thead>
             <tr>
+              <th>ID Danh mục</th>
               <th>ID</th>
               <th>Tên sản phẩm</th>
               <th>Ảnh sản phẩm</th>
@@ -22,21 +22,22 @@
           </thead>
           <tbody>
             <?php
-            foreach ($listSanPham as $key => $item) {
+            foreach ($listSanPhamAll as $key => $item) {
             ?>
               <tr>
                 <td><?= $item['id_sanpham'] ?></td>
+                <td><?= $item['id_danhmuc'] ?></td>
                 <td><?= $item['ten_sanpham'] ?></td>
                 <td><img width="50" height="50" src="/PRO1014/Techboys/upload/<?php echo $item['img']?>"></img></td>
                 <td><?= $item['gia'] ?></td>
-                <td><?= $item['nguongoc'] ?></td>
+                <td><?= $item['nguongoc']?></td>
                 <td><a class="btn btn-primary" href="index.php?act=suasanpham&id=<?= $item['id_sanpham'] ?>">Sửa</a></td>
                 <td> <a class="btn btn-primary" href="index.php?act=xoasanpham&id=<?= $item['id_sanpham'] ?>">Xóa</a></td>
               </tr>
             <?php } ?>
           </tbody>
         </table>
-
+        <a class="btn btn-primary" href="index.php?act=themsanpham">Thêm sản phẩm</a>
       </div>
     </div>
   </div>
