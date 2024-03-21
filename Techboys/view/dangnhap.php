@@ -28,7 +28,7 @@
     <a href="test.php"><i class='bx bxl-google'></i></a>
     <a href="test.php"><i class='bx bxl-twitter'></i></a>
   </div>
-  <p>Chưa có tài khoản? <a href="dangky.php">Đăng ký ngay</a></p>
+  <p>Chưa có tài khoản? <a href="index.php?act=dangky">Đăng ký ngay</a></p>
 </div>
 </body>
 </html>

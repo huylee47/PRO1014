@@ -55,7 +55,7 @@
                                     <div class="user_icon">
                                         <img src="images/user.svg" alt="" />
                                     </div>
-                                    <div><a href="dangky.php">Đăng ký</a></div>
+                                    <div><a href="index.php?act=dangky">Đăng ký</a></div>
                                     <div><a href="index.php?act=dangnhap">Đăng nhập</a></div>
                                 </div>
                                 <?php }?>
