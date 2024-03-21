@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,14 +41,24 @@
                                 <a href="mailto:fastsales@gmail.com">techboys@gmail.com</a>
                             </div>
                             <div class="top_bar_content ml-auto">
-
+                            <?php                    
+                            if(isset($_SESSION['user'])){
+                                $username = $_SESSION['user'];
+                            ?>
                                 <div class="top_bar_user">
+                                    <div style="margin-right: 10px;">Hello <?php echo $username;?></div>    
+                                    <div><a href="dangxuat.php">Đăng xuất</a></div>
+                                </div>
+                                <?php }else{ 
+                                    ?>
+                                    <div class="top_bar_user">
                                     <div class="user_icon">
                                         <img src="images/user.svg" alt="" />
                                     </div>
-                                    <div><a href="#">Đăng ký</a></div>
-                                    <div><a href="#">Đăng nhập</a></div>
+                                    <div><a href="dangky.php">Đăng ký</a></div>
+                                    <div><a href="dangnhap.php">Đăng nhập</a></div>
                                 </div>
+                                <?php }?>
                             </div>
                         </div>
                     </div>
@@ -138,31 +149,14 @@
 								</div>
 
 								<ul class="cat_menu">
-									<li><a href="#">Computers & Laptops <i class="fas fa-chevron-right ml-auto"></i></a></li>
-									<li><a href="#">Cameras & Photos<i class="fas fa-chevron-right"></i></a></li>
-									<li class="hassubs">
-										<a href="#">Hardware<i class="fas fa-chevron-right"></i></a>
-										<ul>
-											<li class="hassubs">
-												<a href="#">Menu Item<i class="fas fa-chevron-right"></i></a>
-												<ul>
-													<li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-													<li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-													<li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-													<li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-												</ul>
-											</li>
-											<li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-											<li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-											<li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
-										</ul>
-									</li>
-									<li><a href="#">Smartphones & Tablets<i class="fas fa-chevron-right"></i></a></li>
-									<li><a href="#">TV & Audio<i class="fas fa-chevron-right"></i></a></li>
-									<li><a href="#">Gadgets<i class="fas fa-chevron-right"></i></a></li>
-									<li><a href="#">Car Electronics<i class="fas fa-chevron-right"></i></a></li>
-									<li><a href="#">Video Games & Consoles<i class="fas fa-chevron-right"></i></a></li>
-									<li><a href="#">Accessories<i class="fas fa-chevron-right"></i></a></li>
+                                <?php
+                                require_once "model/danhmuc.php";
+                                $listdanhmuc = list_danhmuc();
+                                    foreach ($listdanhmuc as $key => $item) {
+                                    ?>
+                                    <li><a href="#"><?=$item['ten_danhmuc']?><i class="fas fa-chevron-right"></i></a></li>
+                                    <?php } ?>
+									
 								</ul>
 							</div>
 

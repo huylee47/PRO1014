@@ -1,29 +1,31 @@
 <?php
+session_start();
 // aaaaaaaaaaaaaaaaaaaaaa
-include 'header.php';
+require_once 'header.php';
 if (($_GET == [])) {
-    include 'home.php';
+    require_once 'home.php';
 } else {
     if (isset($_GET['act'])) {
         $act = $_GET['act'];
         switch ($act) {
             case 'cuahang':
-                include "cuahang.php";
+                require_once "cuahang.php";
                 break;
             case 'lienhe':
-                include "lienhe.php";
+                require_once "lienhe.php";
                 break;
             case 'giohang':
-                include "giohang.php";
+                require_once "giohang.php";
                 break;
             case 'blog':
-                include "blog.php";
+                require_once "blog.php";
                 break;
             case 'chitietsanpham':
-                include "chitietsanpham.php";
+                require_once "chitietsanpham.php";
                 break;
         }
     }
 }
 
-include 'footer.php';
+require_once 'footer.php';
+?>

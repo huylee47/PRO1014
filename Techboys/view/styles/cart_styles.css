@@ -716,32 +716,7 @@ section
 {
 	color: #0e8ce4;
 }
-select
-{
-	display: inline;
-	border: 0;
-	width: auto;
-	margin-left: 10px;
-	outline: none;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	border-bottom: 2px solid #555;
-	color: #7b00ff;
-	-webkit-transition: all .4s ease-in-out;
-	transition: all .4s ease-in-out;
-}
-select:hover
-{
-	cursor: pointer;
-}
-select option
-{
-	border: 0;
-	border-bottom: 1px solid #555;
-	padding: 10px;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-}
+
 .header_search_button
 {
 	position: absolute;
@@ -1317,7 +1292,7 @@ select option
 }
 .cart_buttons
 {
-	margin-top: 60px;
+	
 	text-align: right;
 }
 .cart_button_clear
@@ -1641,4 +1616,57 @@ select option
 .logos_list li:last-child
 {
 	margin-right: 0px;
+}/* Apply consistent font styles */
+button, input, select, textarea {
+	font-family: 'Arial', sans-serif;
+	font-size: 100%;
+  }
+  
+  /* Style the form elements */
+  input[type="text"],
+  
+  textarea {
+	display: flex;
+	width: 400px;
+	padding: 4px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 10px;
+  }
+  
+ .tongtien {
+  margin-top: -380px;
+  width: 480px;
+  padding: 14px;
+  background-color: #f8f8f8;
+  float: right;
 }
+
+.tongtien p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tongtien .total {
+
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.tongtien .total p {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}.voucher{
+	width: 100px;
+}.tongtien h3{
+	margin-bottom: 40px;
+	margin-top: -10px;
+}
+
+
+
+
+
+
+
+  

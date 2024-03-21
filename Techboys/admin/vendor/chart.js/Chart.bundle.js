@@ -1069,7 +1069,7 @@ var conversions_15 = conversions.gray;
 	of strings, each with the steps in between the 'from' and 'to'
 	color models (inclusive).
 
-	conversions that are not possible simply are not included.
+	conversions that are not possible simply are not require_onced.
 */
 
 function buildGraph() {
@@ -2813,7 +2813,7 @@ var exports$1 = {
 		ctx.beginPath();
 
 		switch (style) {
-		// Default includes circle
+		// Default require_onces circle
 		default:
 			ctx.arc(x, y, radius, 0, DOUBLE_PI);
 			ctx.closePath();
@@ -8460,7 +8460,7 @@ function getTooltipSize(tooltip, model) {
 	ctx.font = helpers$1.fontString(bodyFontSize, model._bodyFontStyle, model._bodyFontFamily);
 	helpers$1.each(model.beforeBody.concat(model.afterBody), maxLineWidth);
 
-	// Body lines may include some extra width due to the color box
+	// Body lines may require_once some extra width due to the color box
 	widthPadding = model.displayColors ? (bodyFontSize + 2) : 0;
 	helpers$1.each(body, function(bodyItem) {
 		helpers$1.each(bodyItem.before, maxLineWidth);
@@ -15362,7 +15362,7 @@ var moment = createCommonjsModule(function (module, exports) {
     var matchTimestamp = /[+-]?\d+(\.\d{1,3})?/; // 123456789 123456789.123
 
     // any word (or two) characters or numbers including two/three word month in arabic.
-    // includes scottish gaelic two word and hyphenated months
+    // require_onces scottish gaelic two word and hyphenated months
     var matchWord = /[0-9]{0,256}['a-z\u00A0-\u05FF\u0700-\uD7FF\uF900-\uFDCF\uFDF0-\uFF07\uFF10-\uFFEF]{1,256}|[\u0600-\u06FF\/]{1,256}(\s*?[\u0600-\u06FF]{1,256}){1,2}/i;
 
     var regexes = {};
@@ -17761,7 +17761,7 @@ var moment = createCommonjsModule(function (module, exports) {
                 h  : toInt(match[HOUR])                         * sign,
                 m  : toInt(match[MINUTE])                       * sign,
                 s  : toInt(match[SECOND])                       * sign,
-                ms : toInt(absRound(match[MILLISECOND] * 1000)) * sign // the millisecond decimal point is included in the match
+                ms : toInt(absRound(match[MILLISECOND] * 1000)) * sign // the millisecond decimal point is require_onced in the match
             };
         } else if (!!(match = isoRegex.exec(input))) {
             sign = (match[1] === '-') ? -1 : 1;

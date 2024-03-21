@@ -9,14 +9,14 @@
   // No need to set list-style: none; since .list-group-item is block level
   padding-left: 0; // reset padding because ul and ol
   margin-bottom: 0;
-  @include border-radius($list-group-border-radius);
+  @require_once border-radius($list-group-border-radius);
 }
 
 
 // Interactive list items
 //
 // Use anchor or button elements instead of `li`s or `div`s to create interactive
-// list items. Includes an extra `.active` modifier class for selected items.
+// list items. require_onces an extra `.active` modifier class for selected items.
 
 .list-group-item-action {
   width: 100%; // For `<button>`s (anchors become 100% by default though)
@@ -24,7 +24,7 @@
   text-align: inherit; // For `<button>`s (anchors inherit)
 
   // Hover state
-  @include hover-focus() {
+  @require_once hover-focus() {
     z-index: 1; // Place hover/focus items above their siblings for proper border styling
     color: $list-group-action-hover-color;
     text-decoration: none;
@@ -52,11 +52,11 @@
   border: $list-group-border-width solid $list-group-border-color;
 
   &:first-child {
-    @include border-top-radius(inherit);
+    @require_once border-top-radius(inherit);
   }
 
   &:last-child {
-    @include border-bottom-radius(inherit);
+    @require_once border-bottom-radius(inherit);
   }
 
   &.disabled,
@@ -66,7 +66,7 @@
     background-color: $list-group-disabled-bg;
   }
 
-  // Include both here for `<a>`s and `<button>`s
+  // require_once both here for `<a>`s and `<button>`s
   &.active {
     z-index: 2; // Place active items above their siblings for proper border styling
     color: $list-group-active-color;
@@ -90,7 +90,7 @@
 // Change the layout of list group items from vertical (default) to horizontal.
 
 @each $breakpoint in map-keys($grid-breakpoints) {
-  @include media-breakpoint-up($breakpoint) {
+  @require_once media-breakpoint-up($breakpoint) {
     $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 
     .list-group-horizontal#{$infix} {
@@ -98,13 +98,13 @@
 
       > .list-group-item {
         &:first-child {
-          @include border-bottom-left-radius($list-group-border-radius);
-          @include border-top-right-radius(0);
+          @require_once border-bottom-left-radius($list-group-border-radius);
+          @require_once border-top-right-radius(0);
         }
 
         &:last-child {
-          @include border-top-right-radius($list-group-border-radius);
-          @include border-bottom-left-radius(0);
+          @require_once border-top-right-radius($list-group-border-radius);
+          @require_once border-bottom-left-radius(0);
         }
 
         &.active {
@@ -132,7 +132,7 @@
 // useful within other components (e.g., cards).
 
 .list-group-flush {
-  @include border-radius(0);
+  @require_once border-radius(0);
 
   > .list-group-item {
     border-width: 0 0 $list-group-border-width;
@@ -150,5 +150,5 @@
 // Organizationally, this must come after the `:hover` states.
 
 @each $color, $value in $theme-colors {
-  @include list-group-item-variant($color, theme-color-level($color, -9), theme-color-level($color, 6));
+  @require_once list-group-item-variant($color, theme-color-level($color, -9), theme-color-level($color, 6));
 }

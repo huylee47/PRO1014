@@ -2,34 +2,27 @@
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-
   <title>SB Admin 2 - Dashboard</title>
-
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-
   <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
-
 </head>
 
 <body id="page-top">
-
   <!-- Page Wrapper -->
   <div id="wrapper">
-
     <!-- Sidebar -->
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.">
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-laugh-wink"></i>
         </div>
@@ -53,34 +46,48 @@
       <div class="sidebar-heading">
         Chức năng
 
-      <!-- Nav Item - Charts -->
-      <li class="nav-item">
-        <a class="nav-link" href="charts.html">
-          <i class="fas fa-fw fa-chart-area"></i>
-          <span>Charts</span></a>
-      </li>
 
-      <!-- Nav Item - Tables -->
-      <li class="nav-item">
-        <a class="nav-link" href="index.php?act=listdanhmuc">
-          <i class="fas fa-fw fa-table"></i>
-          <span>Danh mục</span></a>
-      </li>
+        <!-- Nav Item - Tables -->
+        <li class="nav-item">
+          <a class="nav-link" href="index.php?act=listdanhmuc">
+            <i class="fas fa-fw fa-table"></i>
+            <span>Danh mục</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.php?act=listsanpham">
+            <i class="fas fa-fw fa-table"></i>
+            <span>Sản phẩm</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.php?act=listdanhmuc">
+            <i class="fas fa-fw fa-table"></i>
+            <span>Hóa đơn</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.php?act=listdanhmuc">
+            <i class="fas fa-fw fa-table"></i>
+            <span>Voucher</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.php?act=listdanhmuc">
+            <i class="fas fa-fw fa-table"></i>
+            <span>Thống kê</span></a>
+        </li>
 
-      <!-- Divider -->
-      <hr class="sidebar-divider d-none d-md-block">
+        <!-- Divider -->
+        <hr class="sidebar-divider d-none d-md-block">
 
-      <!-- Sidebar Toggler (Sidebar) -->
-      <div class="text-center d-none d-md-inline">
-        <button class="rounded-circle border-0" id="sidebarToggle"></button>
-      </div>
+        <!-- Sidebar Toggler (Sidebar) -->
+        <div class="text-center d-none d-md-inline">
+          <button class="rounded-circle border-0" id="sidebarToggle"></button>
+        </div>
 
-      <!-- Sidebar Message -->
-      <div class="sidebar-card d-none d-lg-flex">
+        <!-- Sidebar Message -->
+        <!-- <div class="sidebar-card d-none d-lg-flex">
         <img class="sidebar-card-illustration mb-2" src="img/undraw_rocket.svg" alt="...">
         <p class="text-center mb-2"><strong>SB Admin Pro</strong> is packed with premium features, components, and more!</p>
         <a class="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Upgrade to Pro!</a>
-      </div>
+      </div> -->
 
     </ul>
     <!-- End of Sidebar -->
@@ -248,7 +255,13 @@
             <!-- Nav Item - User Information -->
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">
+                <?php
+                if(isset($_SESSION['user'])){
+                $username = $_SESSION['user'];
+                echo $username;}
+                ?>
+                </span></span>
                 <img class="img-profile rounded-circle" src="img/undraw_profile.svg">
               </a>
               <!-- Dropdown - User Information -->

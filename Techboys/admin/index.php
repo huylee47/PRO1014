@@ -1,32 +1,43 @@
 <?php
-include 'view/header.php';
+session_start();
+require_once 'view/header.php';
 // aaaaaaaaaaaaaaaaaaaaaa
 if (($_GET == [])) {
-    include 'view/home.php';
+    require_once 'view/home.php';
 } else {
     if (isset($_GET['act'])) {
         $act = $_GET['act'];
         switch ($act) {
             case 'listdanhmuc':
-                include "controller/danhmuc/list.php";
+                require_once "controller/danhmuc/list.php";
                 break;
             case 'themdanhmuc':
-                include "controller/danhmuc/add.php";
+                require_once "controller/danhmuc/add.php";
                 break;
-            case 'sanpham':
-                include "lienhe.php";
+            case 'xoadanhmuc':
+                require_once "controller/danhmuc/xoa.php";
                 break;
-            case 'giohang':
-                include "giohang.php";
+            case 'suadanhmuc':
+                require_once "controller/danhmuc/update.php";
                 break;
-            case 'blog':
-                include "blog.php";
+            case 'chitietdanhmuc':
+                require_once "controller/sanpham/list.php";
+                break;
+            case 'listsanpham':
+                require_once "controller/sanpham/list_sp_all.php";
                 break;
             case 'chitietsanpham':
-                include "chitietsanpham.php";
+                require_once "chitietsanpham.php";
+                break;
+            case 'themsanpham':
+                require_once "controller/sanpham/add.php";
                 break;
         }
     }
+} else {
+    // Nếu $_SESSION['quyen'] không tồn tại hoặc không có quyền truy cập, bạn có thể chuyển hướng người dùng hoặc hiển thị thông báo lỗi
+    echo "Bạn không có quyền truy cập vào trang này.";
 }
 
-include 'view/footer.php';
+require_once 'view/footer.php';
+?>

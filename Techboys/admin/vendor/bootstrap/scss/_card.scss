@@ -12,7 +12,7 @@
   background-color: $card-bg;
   background-clip: border-box;
   border: $card-border-width solid $card-border-color;
-  @include border-radius($card-border-radius);
+  @require_once border-radius($card-border-radius);
 
   > hr {
     margin-right: 0;
@@ -25,12 +25,12 @@
 
     &:first-child {
       border-top-width: 0;
-      @include border-top-radius($card-inner-border-radius);
+      @require_once border-top-radius($card-inner-border-radius);
     }
 
     &:last-child  {
       border-bottom-width: 0;
-      @include border-bottom-radius($card-inner-border-radius);
+      @require_once border-bottom-radius($card-inner-border-radius);
     }
   }
 
@@ -67,7 +67,7 @@
 }
 
 .card-link {
-  @include hover() {
+  @require_once hover() {
     text-decoration: none;
   }
 
@@ -88,7 +88,7 @@
   border-bottom: $card-border-width solid $card-border-color;
 
   &:first-child {
-    @include border-radius($card-inner-border-radius $card-inner-border-radius 0 0);
+    @require_once border-radius($card-inner-border-radius $card-inner-border-radius 0 0);
   }
 }
 
@@ -99,7 +99,7 @@
   border-top: $card-border-width solid $card-border-color;
 
   &:last-child {
-    @include border-radius(0 0 $card-inner-border-radius $card-inner-border-radius);
+    @require_once border-radius(0 0 $card-inner-border-radius $card-inner-border-radius);
   }
 }
 
@@ -128,7 +128,7 @@
   bottom: 0;
   left: 0;
   padding: $card-img-overlay-padding;
-  @include border-radius($card-inner-border-radius);
+  @require_once border-radius($card-inner-border-radius);
 }
 
 .card-img,
@@ -140,12 +140,12 @@
 
 .card-img,
 .card-img-top {
-  @include border-top-radius($card-inner-border-radius);
+  @require_once border-top-radius($card-inner-border-radius);
 }
 
 .card-img,
 .card-img-bottom {
-  @include border-bottom-radius($card-inner-border-radius);
+  @require_once border-bottom-radius($card-inner-border-radius);
 }
 
 
@@ -156,7 +156,7 @@
     margin-bottom: $card-deck-margin;
   }
 
-  @include media-breakpoint-up(sm) {
+  @require_once media-breakpoint-up(sm) {
     display: flex;
     flex-flow: row wrap;
     margin-right: -$card-deck-margin;
@@ -184,7 +184,7 @@
     margin-bottom: $card-group-margin;
   }
 
-  @include media-breakpoint-up(sm) {
+  @require_once media-breakpoint-up(sm) {
     display: flex;
     flex-flow: row wrap;
     // The child selector allows nested `.card` within `.card-group`
@@ -202,7 +202,7 @@
       // Handle rounded corners
       @if $enable-rounded {
         &:not(:last-child) {
-          @include border-right-radius(0);
+          @require_once border-right-radius(0);
 
           .card-img-top,
           .card-header {
@@ -217,7 +217,7 @@
         }
 
         &:not(:first-child) {
-          @include border-left-radius(0);
+          @require_once border-left-radius(0);
 
           .card-img-top,
           .card-header {
@@ -245,7 +245,7 @@
     margin-bottom: $card-columns-margin;
   }
 
-  @include media-breakpoint-up(sm) {
+  @require_once media-breakpoint-up(sm) {
     column-count: $card-columns-count;
     column-gap: $card-columns-gap;
     orphans: 1;
@@ -271,15 +271,15 @@
 
     &:not(:last-of-type) {
       border-bottom: 0;
-      @include border-bottom-radius(0);
+      @require_once border-bottom-radius(0);
     }
 
     &:not(:first-of-type) {
-      @include border-top-radius(0);
+      @require_once border-top-radius(0);
     }
 
     > .card-header {
-      @include border-radius(0);
+      @require_once border-radius(0);
       margin-bottom: -$card-border-width;
     }
   }

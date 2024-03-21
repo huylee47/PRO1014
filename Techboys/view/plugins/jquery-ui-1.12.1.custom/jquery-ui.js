@@ -1,6 +1,6 @@
 /*! jQuery UI - v1.12.1 - 2017-12-03
 * http://jqueryui.com
-* Includes: widget.js, keycode.js, widgets/mouse.js, widgets/slider.js, effect.js, effects/effect-blind.js, effects/effect-bounce.js, effects/effect-clip.js, effects/effect-drop.js, effects/effect-explode.js, effects/effect-fade.js, effects/effect-fold.js, effects/effect-highlight.js, effects/effect-puff.js, effects/effect-pulsate.js, effects/effect-scale.js, effects/effect-shake.js, effects/effect-size.js, effects/effect-slide.js, effects/effect-transfer.js
+* require_onces: widget.js, keycode.js, widgets/mouse.js, widgets/slider.js, effect.js, effects/effect-blind.js, effects/effect-bounce.js, effects/effect-clip.js, effects/effect-drop.js, effects/effect-explode.js, effects/effect-fade.js, effects/effect-fold.js, effects/effect-highlight.js, effects/effect-puff.js, effects/effect-pulsate.js, effects/effect-scale.js, effects/effect-shake.js, effects/effect-size.js, effects/effect-slide.js, effects/effect-transfer.js
 * Copyright jQuery Foundation and other contributors; Licensed MIT */
 
 (function( factory ) {
@@ -1742,7 +1742,7 @@ var widgetsSlider = $.widget( "ui.slider", $.ui.mouse, {
 //>>label: Effects Core
 //>>group: Effects
 // jscs:disable maximumLineLength
-//>>description: Extends the internal jQuery effects. Includes morphing and easing. Required by all other effects.
+//>>description: Extends the internal jQuery effects. require_onces morphing and easing. Required by all other effects.
 // jscs:enable maximumLineLength
 //>>docs: http://api.jqueryui.com/category/effects-core/
 //>>demos: http://jqueryui.com/effect/
@@ -2170,11 +2170,11 @@ color.fn = jQuery.extend( color.prototype, {
 		}
 		return prefix + hsla.join() + ")";
 	},
-	toHexString: function( includeAlpha ) {
+	toHexString: function( require_onceAlpha ) {
 		var rgba = this._rgba.slice(),
 			alpha = rgba.pop();
 
-		if ( includeAlpha ) {
+		if ( require_onceAlpha ) {
 			rgba.push( ~~( alpha * 255 ) );
 		}
 
@@ -2306,7 +2306,7 @@ each( spaces, function( spaceName, space ) {
 	// Makes red() green() blue() alpha() hue() saturation() lightness()
 	each( props, function( key, prop ) {
 
-		// Alpha is included in more than one space
+		// Alpha is require_onced in more than one space
 		if ( color.fn[ key ] ) {
 			return;
 		}
@@ -3963,7 +3963,7 @@ var effectsEffectSize = $.effects.define( "size", function( options, done ) {
 		hProps = hProps.concat( [ "marginLeft", "marginRight" ] );
 
 		// Only animate children with width attributes specified
-		// TODO: is this right? should we include anything with css width specified as well
+		// TODO: is this right? should we require_once anything with css width specified as well
 		element.find( "*[width]" ).each( function() {
 			var child = $( this ),
 				childOriginal = $.effects.scaledDimensions( child ),

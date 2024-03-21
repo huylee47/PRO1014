@@ -13,35 +13,27 @@
         <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
           <thead>
             <tr>
-              <th>Name</th>
-              <th>Position</th>
-              <th>Office</th>
-              <th>Age</th>
-              <th>Start date</th>
-              <th>Salary</th>
+              <th>ID</th>
+              <th>Tên danh mục</th>
+              <th>Chi tiết sản phẩm</th>
+              <th colspan="2" style="text-align: center;">Chức năng</th>
             </tr>
           </thead>
-          <tfoot>
-            <tr>
-              <th>Name</th>
-              <th>Position</th>
-              <th>Office</th>
-              <th>Age</th>
-              <th>Start date</th>
-              <th>Salary</th>
-            </tr>
-          </tfoot>
           <tbody>
-            <tr>
-              <td>Tiger Nixon</td>
-              <td>System Architect</td>
-              <td>Edinburgh</td>
-              <td>61</td>
-              <td>2011/04/25</td>
-              <td>$320,800</td>
-            </tr>
+            <?php
+            foreach ($listdanhmuc as $key => $item) {
+            ?>
+              <tr>
+                <td><?= $item['id_danhmuc'] ?></td>
+                <td><?= $item['ten_danhmuc'] ?></td>
+                <td><a class="btn btn-primary" href="index.php?act=chitietdanhmuc&id=<?= $item['id_danhmuc'] ?>">Chi tiết</a></td>
+                <td><a class="btn btn-primary" href="index.php?act=suadanhmuc&id=<?= $item['id_danhmuc'] ?>">Sửa</a></td>
+                <td> <a class="btn btn-primary" href="index.php?act=xoadanhmuc&id=<?= $item['id_danhmuc'] ?>">Xóa</a></td>
+              </tr>
+            <?php } ?>
           </tbody>
         </table>
+        <a class="btn btn-primary" href="index.php?act=themdanhmuc">Thêm mới</a>
       </div>
     </div>
   </div>
