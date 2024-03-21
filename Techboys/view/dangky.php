@@ -1,17 +1,4 @@
-<?php
-require_once "model/taikhoan.php";
-if (isset($_POST['dangky'])) {
-    $email = $_POST['email'];
-    $user = $_POST['user'];
-    $pass = $_POST['password'];
-    // Thực hiện thêm tài khoản
-    insert_taikhoan($email, $user, $pass);?>
-                <script>
-                  alert('Đăng ký thành công');
-                  window.location.href = 'dangnhap.php';
-                </script><?php
-}
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,7 +12,7 @@ if (isset($_POST['dangky'])) {
 <body>
 <div class="container">
   <h2>Đăng ký</h2>
-  <form action="#" method="post">
+  <form action="" method="post">
     <div class="input-group">
       <label>Tên đăng nhập:</label>
       <input type="text" name="user" required>
@@ -40,7 +27,7 @@ if (isset($_POST['dangky'])) {
     </div>
     <button type="submit" class="btn" name="dangky">Đăng ký</button>
   </form>
-  <p>Đã có tài khoản? <a href="dangnhap.php">Đăng nhập</a></p>
+  <p>Đã có tài khoản? <a href="index.php?act=dangnhap">Đăng nhập</a></p>
 </div>
 </body>
 </html>

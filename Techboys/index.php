@@ -27,6 +27,9 @@ if (($_GET == [])) {
             case'dangnhap':
                 require_once "controller/dangnhap.php";
                 break;
+                case'dangky':
+                    require_once "controller/dangky.php";
+                    break;
                 case'dangxuat':
                     require_once "controller/dangxuat.php";
                     break;      //     break;
