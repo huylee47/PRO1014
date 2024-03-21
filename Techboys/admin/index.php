@@ -32,12 +32,20 @@ if (($_GET == [])) {
             case 'themsanpham':
                 require_once "controller/sanpham/add.php";
                 break;
+            case 'listvoucher':
+                require_once "controller/voucher/list.php";
+                break;
+            case 'themvoucher':
+                require_once "controller/voucher/add.php";
+                break;
+            case 'xoavoucher':
+                require_once "controller/voucher/xoa.php";
+                break;
+            case 'suavoucher':
+                require_once "controller/voucher/update.php";
+                break;
         }
     }
-} else {
-    // Nếu $_SESSION['quyen'] không tồn tại hoặc không có quyền truy cập, bạn có thể chuyển hướng người dùng hoặc hiển thị thông báo lỗi
-    echo "Bạn không có quyền truy cập vào trang này.";
 }
 
 require_once 'view/footer.php';
-?>

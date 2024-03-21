@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- aaaaaaaaaaa -->
 <head>
     <title>TechBoys</title>
     <meta charset="utf-8" />
@@ -47,7 +47,7 @@
                             ?>
                                 <div class="top_bar_user">
                                     <div style="margin-right: 10px;">Hello <?php echo $username;?></div>    
-                                    <div><a href="dangxuat.php">Đăng xuất</a></div>
+                                    <div><a href="index.php?act=dangxuat">Đăng xuất</a></div>
                                 </div>
                                 <?php }else{ 
                                     ?>
@@ -55,8 +55,8 @@
                                     <div class="user_icon">
                                         <img src="images/user.svg" alt="" />
                                     </div>
-                                    <div><a href="dangky.php">Đăng ký</a></div>
-                                    <div><a href="dangnhap.php">Đăng nhập</a></div>
+                                    <div><a href="index.php?act=dangky">Đăng ký</a></div>
+                                    <div><a href="index.php?act=dangnhap">Đăng nhập</a></div>
                                 </div>
                                 <?php }?>
                             </div>

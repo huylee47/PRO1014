@@ -64,7 +64,7 @@
             <span>Hóa đơn</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.php?act=listdanhmuc">
+          <a class="nav-link" href="index.php?act=listvoucher">
             <i class="fas fa-fw fa-table"></i>
             <span>Voucher</span></a>
         </li>
