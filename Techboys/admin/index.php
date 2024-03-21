@@ -32,9 +32,20 @@ if (($_GET == [])) {
             case 'themsanpham':
                 require_once "controller/sanpham/add.php";
                 break;
+            case 'listvoucher':
+                require_once "controller/voucher/list.php";
+                break;
+            case 'themvoucher':
+                require_once "controller/voucher/add.php";
+                break;
+            case 'xoavoucher':
+                require_once "controller/voucher/xoa.php";
+                break;
+            case 'suavoucher':
+                require_once "controller/voucher/update.php";
+                break;
         }
     }
 }
 
 require_once 'view/footer.php';
-?>
