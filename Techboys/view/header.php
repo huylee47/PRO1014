@@ -47,7 +47,7 @@
                             ?>
                                 <div class="top_bar_user">
                                     <div style="margin-right: 10px;">Hello <?php echo $username;?></div>    
-                                    <div><a href="dangxuat.php">Đăng xuất</a></div>
+                                    <div><a href="index.php?act=dangxuat">Đăng xuất</a></div>
                                 </div>
                                 <?php }else{ 
                                     ?>

@@ -1,7 +1,7 @@
 <?php
 require_once "model/taikhoan.php";
 if (!isset($_POST['dangnhap'])) {
-    include_once "./dangnhap.php";
+    include_once "./view/dangnhap.php";
 } else {
     $username = $_POST['user'];
     $password = $_POST['password'];
