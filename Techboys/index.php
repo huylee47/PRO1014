@@ -1,7 +1,5 @@
 <?php
 session_start();
-// aaaaaaaaaaaaaaaaaaaaaa
-// require_once 'header.php';
 if (($_GET == [])) {
     require_once 'controller/home.php';
 } else {
@@ -28,7 +26,10 @@ if (($_GET == [])) {
                 break;      
             case'dangnhap':
                 require_once "controller/dangnhap.php";
-                break;    //     break;
+                break;
+                case'dangxuat':
+                    require_once "controller/dangxuat.php";
+                    break;      //     break;
         }
     }
 }
