@@ -50,6 +50,15 @@ if (($_GET == [])) {
             case 'suavoucher':
                 require_once "controller/voucher/update.php";
                 break;
+            case 'listhoadon':
+                require_once "controller/hoadon/list.php";
+                break;
+            case 'xoahoadon':
+                require_once "controller/hoadon/xoa.php";
+                break;
+            case 'suahoadon':
+                require_once "controller/hoadon/update.php";
+                break;
         }
     }
 }
