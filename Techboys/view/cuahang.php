@@ -143,36 +143,6 @@
 							</div>
 
 							<!-- Product Item -->
-							<div class="product_item is_new">
-								<div class="product_border"></div>
-								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/shop_1.jpg" alt=""></div>
-								<div class="product_content">
-									<div class="product_price">$379</div>
-									<div class="product_name"><div><a href="#" tabindex="0">Canon IXUS 175...</a></div></div>
-								</div>
-								<div class="product_fav"><i class="fas fa-heart"></i></div>
-								<ul class="product_marks">
-									<li class="product_mark product_discount">-25%</li>
-									<li class="product_mark product_new">new</li>
-								</ul>
-							</div>
-
-							<!-- Product Item -->
-							<div class="product_item">
-								<div class="product_border"></div>
-								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_5.png" alt=""></div>
-								<div class="product_content">
-									<div class="product_price">$379<span>$300</span></div>
-									<div class="product_name"><div><a href="#" tabindex="0">Canon STM Kit...</a></div></div>
-								</div>
-								<div class="product_fav"><i class="fas fa-heart"></i></div>
-								<ul class="product_marks">
-									<li class="product_mark product_discount">-25%</li>
-									<li class="product_mark product_new">new</li>
-								</ul>
-							</div>
-
-							<!-- Product Item -->
 							<div class="product_item">
 								<div class="product_border"></div>
 								<div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/featured_6.png" alt=""></div>
