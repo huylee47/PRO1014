@@ -27,10 +27,10 @@
             ?>
               <tr>
                 <td><?= $item['id_binhluan'] ?></td>
-                <td><?= $item['id_sanpham'] ?></td>
+                <td><?= get_ten_sanpham_by_id($item['id_sanpham']);?></td>
                 <td><?= $item['id_taikhoan'] ?></td>
                 <td><?= $item['noidung'] ?></td>
-                <td><?= $item['trangthai'] ?></td>
+                <td><?=  $item['trangthai'] == 1  ? "Hiện"  : "Ẩn" ?></td>
                 <td><a class="btn btn-primary" href="index.php?act=hienbinhluan&id=<?= $item['id_binhluan'] ?>">Hiện</a></td>
                 <td><a class="btn btn-primary" href="index.php?act=anbinhluan&id=<?= $item['id_binhluan'] ?>">Ẩn</a></td>
                 <td> <a class="btn btn-primary" href="index.php?act=xoabinhluan&id=<?= $item['id_binhluan'] ?>">Xóa</a></td>
