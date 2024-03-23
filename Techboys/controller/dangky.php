@@ -11,7 +11,7 @@ else {
     insert_taikhoan($email, $user, $pass);?>
                 <script>
                   alert('Đăng ký thành công');
-                  window.location.href = 'dangnhap.php';
+                  window.location.href = 'index.php?act=dangnhap';
                 </script><?php
 }
 
