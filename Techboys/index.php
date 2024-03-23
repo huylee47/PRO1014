@@ -33,6 +33,7 @@ if (($_GET == [])) {
                 case'dangxuat':
                     require_once "controller/dangxuat.php";
                     break;      //     break;
+                    
         }
     }
 }

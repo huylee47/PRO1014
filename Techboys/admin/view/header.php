@@ -59,7 +59,7 @@
             <span>Sản phẩm</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.php?act=listdanhmuc">
+          <a class="nav-link" href="index.php?act=listhoadon">
             <i class="fas fa-fw fa-table"></i>
             <span>Hóa đơn</span></a>
         </li>
