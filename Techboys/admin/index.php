@@ -50,6 +50,18 @@ if (($_GET == [])) {
             case 'suavoucher':
                 require_once "controller/voucher/update.php";
                 break;
+            case 'listbinhluan':
+                require_once "controller/binhluan/list.php";
+            case 'anbinhluan':
+                require_once "controller/binhluan/hide.php";
+                break;
+            case 'xoabinhluan':
+                require_once "controller/binhluan/xoa.php";
+                break;
+            case 'hienbinhluan':
+                require_once "controller/binhluan/show.php";
+                break;
+
         }
     }
 }
