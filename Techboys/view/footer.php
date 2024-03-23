@@ -6,13 +6,13 @@
                   <div class="col-lg-3 footer_col">
                       <div class="footer_column footer_contact">
                           <div class="logo_container">
-                              <div class="logo"><a href="#">OneTech</a></div>
+                              <div class="logo"><a href="#">TechBoys</a></div>
                           </div>
-                          <div class="footer_title">Got Question? Call Us 24/7</div>
-                          <div class="footer_phone">+38 068 005 3570</div>
+                          <div class="footer_title">Trực tuyến 24/7</div>
+                          <div class="footer_phone">+03 256 341</div>
                           <div class="footer_contact_text">
-                              <p>17 Princess Road, London</p>
-                              <p>Grester London NW18JR, UK</p>
+                              <p>techboys@gmail.com</p>
+                              <p>271 lê thánh tông</p>
                           </div>
                           <div class="footer_social">
                               <ul>
@@ -38,7 +38,7 @@
 
                   <div class="col-lg-2 offset-lg-2">
                       <div class="footer_column">
-                          <div class="footer_title">Find it Fast</div>
+                          <div class="footer_title">Tìm kiếm nhanh</div>
                           <ul class="footer_list">
                               <li><a href="#">Computers & Laptops</a></li>
                               <li><a href="#">Cameras & Photos</a></li>
@@ -67,15 +67,13 @@
 
                   <div class="col-lg-2">
                       <div class="footer_column">
-                          <div class="footer_title">Customer Care</div>
+                          <div class="footer_title">Chăm sóc khách hàng</div>
                           <ul class="footer_list">
-                              <li><a href="#">My Account</a></li>
-                              <li><a href="#">Order Tracking</a></li>
-                              <li><a href="#">Wish List</a></li>
-                              <li><a href="#">Customer Services</a></li>
-                              <li><a href="#">Returns / Exchange</a></li>
-                              <li><a href="#">FAQs</a></li>
-                              <li><a href="#">Product Support</a></li>
+                              <li><a href="#">Tài khoản</a></li>
+                              <li><a href="#">Theo dõi đơn hàng</a></li>
+                              <li><a href="#">Chính sách đổi trả</a></li>
+                              <li><a href="#">Quy định bảo hành</a></li>
+                              <li><a href="#">Hỗ trợ</a></li>
                           </ul>
                       </div>
                   </div>
@@ -96,9 +94,8 @@
                               <script>
                                   document.write(new Date().getFullYear());
                               </script>
-                              All rights reserved | This template is made with
-                              <i class="fa fa-heart" aria-hidden="true"></i> by
-                              <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                              TechBoys
+
                               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                           </div>
                           <div class="logos ml-sm-auto">
@@ -147,6 +144,10 @@
       <script src="js/shop_custom.js"></script>
       <!-- Liên hệ -->
       <script src="js/contact_custom.js"></script>
+      <!-- Chi tiết sản phẩm -->
+      <script src="js/product_custom.js"></script>
+      <!-- blog chi tiet -->
+      <script src="js/blog_single_custom.js"></script>
       </body>
 
       </html>

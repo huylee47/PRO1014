@@ -1,6 +1,7 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- aaaaaaaaaaa -->
 <head>
     <title>TechBoys</title>
     <meta charset="utf-8" />
@@ -31,23 +32,33 @@
                                 <div class="top_bar_icon">
                                     <img src="images/phone.png" alt="" />
                                 </div>
-                                +38 068
+                                +03 256 341
                             </div>
                             <div class="top_bar_contact_item">
                                 <div class="top_bar_icon">
                                     <img src="images/mail.png" alt="" />
                                 </div>
-                                <a href="mailto:fastsales@gmail.com">fastsales@gmail.com</a>
+                                <a href="mailto:fastsales@gmail.com">techboys@gmail.com</a>
                             </div>
                             <div class="top_bar_content ml-auto">
-
+                            <?php                    
+                            if(isset($_SESSION['user'])){
+                                $username = $_SESSION['user'];
+                            ?>
                                 <div class="top_bar_user">
+                                    <div style="margin-right: 10px;">Hello <?php echo $username;?></div>    
+                                    <div><a href="index.php?act=dangxuat">Đăng xuất</a></div>
+                                </div>
+                                <?php }else{ 
+                                    ?>
+                                    <div class="top_bar_user">
                                     <div class="user_icon">
                                         <img src="images/user.svg" alt="" />
                                     </div>
-                                    <div><a href="#">Đăng kí</a></div>
-                                    <div><a href="#">Đăng nhập</a></div>
+                                    <div><a href="index.php?act=dangky">Đăng ký</a></div>
+                                    <div><a href="index.php?act=dangnhap">Đăng nhập</a></div>
                                 </div>
+                                <?php }?>
                             </div>
                         </div>
                     </div>
@@ -73,11 +84,11 @@
                                     <div class="header_search_form_container">
                                         <form action="#" class="header_search_form clearfix">
                                             <input type="search" required="required" class="header_search_input"
-                                                placeholder="Search for products..." />
-                                            <div class="custom_dropdown">
+                                                placeholder="Tìm kiếm" />
+                                            <div >
                                                 <div class="custom_dropdown_list">
-                                                    <span class="custom_dropdown_placeholder clc">All Categories</span>
-                                                    <i class="fas fa-chevron-down"></i>
+                                                    <span class="custom_dropdown_placeholder clc"></span>
+    
                                                     <ul class="custom_list clc">
                                                         <li>
                                                             <a class="clc" href="#">All Categories</a>
@@ -108,8 +119,8 @@
                                 <div class="cart">
                                     <div class="cart_container d-flex flex-row align-items-center justify-content-end">
                                         <div class="cart_icon">
-                                            <img src="images/cart.png" alt="" />
-                                            <div class="cart_count"><span>10</span></div>
+                                            <img src="images/icons8-shop-32.png"  alt="" />
+                                           
                                         </div>
                                         <div class="cart_content">
                                             <div class="cart_text"><a href="index.php?act=giohang">Giỏ hàng</a></div>
@@ -131,7 +142,23 @@
                         <div class="col">
                             <div class="main_nav_content d-flex flex-row">
                                 <!-- Categories Menu -->
+                                <div class="cat_menu_container">
+								<div class="cat_menu_title d-flex flex-row align-items-center justify-content-start">
+									<div class="cat_burger"><span></span><span></span><span></span></div>
+									<div class="cat_menu_text">Danh mục sản phẩm</div>
+								</div>
 
+								<ul class="cat_menu">
+                                <?php
+                                require_once "model/danhmuc.php";
+                                $listdanhmuc = list_danhmuc();
+                                    foreach ($listdanhmuc as $key => $item) {
+                                    ?>
+                                    <li><a href="#"><?=$item['ten_danhmuc']?><i class="fas fa-chevron-right"></i></a></li>
+                                    <?php } ?>
+									
+								</ul>
+							</div>
 
 
                                 <!-- Main Nav Menu -->
@@ -139,17 +166,16 @@
                                 <div class="main_nav_menu ml-auto">
                                     <ul class="standard_dropdown main_nav_dropdown">
                                         <li>
-                                            <a href="index.php">Home<i class="fas fa-chevron-down"></i></a>
+                                            <a href="index.php">Trang chủ<i class="fas fa-chevron-down"></i></a>
                                         </li>
                                         <li>
-                                            <a href="index.php?act=cuahang">Shop<i class="fas fa-chevron-down"></i></a>
+                                            <a href="index.php?act=cuahang">Cửa hàng<i class="fas fa-chevron-down"></i></a>
                                         </li>
                                         <li>
-                                            <a href="index.php?act=blog">Blog<i class="fas fa-chevron-down"></i></a>
+                                            <a href="index.php?act=blog">Tin tức<i class="fas fa-chevron-down"></i></a>
                                         </li>
                                         <li>
-                                            <a href="index.php?act=lienhe">Contact<i
-                                                    class="fas fa-chevron-down"></i></a>
+                                            <a href="index.php?act=lienhe">Liên hệ<i class="fas fa-chevron-down"></i></a>
                                         </li>
                                     </ul>
                                 </div>
