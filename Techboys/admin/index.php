@@ -52,6 +52,7 @@ if (($_GET == [])) {
                 break;
             case 'listbinhluan':
                 require_once "controller/binhluan/list.php";
+                break;
             case 'anbinhluan':
                 require_once "controller/binhluan/hide.php";
                 break;
@@ -61,12 +62,15 @@ if (($_GET == [])) {
             case 'hienbinhluan':
                 require_once "controller/binhluan/show.php";
                 break;
-                case 'listhoadon':
-                    require_once "controller/hoadon/list.php";
-                    break;
-                    case 'xoahoadon':
-                        require_once "controller/hoadon/xoa.php";
-                        break;
+            case 'listhoadon':
+                require_once "controller/hoadon/list.php";
+                break;
+            case 'xoahoadon':
+                require_once "controller/hoadon/xoa.php";
+                break;
+            case 'chitiethoadon':
+                require_once "controller/hoadon/chitiethoadon.php";
+                break;
         }
     }
 }
