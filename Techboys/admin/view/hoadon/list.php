@@ -30,12 +30,12 @@
             ?>
               <tr>
                 <td><?= $item['id_hoadon'] ?></td>
-                <td><?= $item['id_khachhang'] ?></td>
+                <td><?= $item['id_taikhoan'] ?></td>
                 <td><?= $item['diachi'] ?></td>
                 <td><?= $item['id_voucher'] ?></td>
-                <td><?= $item['ngay_lap']?></td>
-                <td><?= $item['pttt']?></td>
-                <td><?= $item['tinh_trang']?></td>
+                <td><?= $item['ngaytao']?></td>
+                <td><?= $item['phuongthuc_thanhtoan']?></td>
+                <td><?= $item['tinhtrang']?></td>
                 <td></td>
                 <td><a class="btn btn-primary" href="index.php?act=chitiethoadon&id=<?= $item['id_hoadon'] ?>">chi tiết</a></td>
                 <td><a class="btn btn-primary" href="index.php?act=suahoadon&id=<?= $item['id_hoadon'] ?>">Sửa</a></td>
