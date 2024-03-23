@@ -24,3 +24,7 @@ function sanpham($id_sp) {
     $sql = "SELECT * FROM sanpham WHERE id_sanpham = '$id_sp'";
     return pdo_query_one($sql);
 }
+function get_ten_sanpham_by_id($id_sp){
+    $sql= "SELECT ten_sanpham FROM sanpham WHERE id_sanpham = $id_sp";
+    return pdo_query_one($sql)['ten_sanpham'];
+}
