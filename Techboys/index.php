@@ -18,8 +18,8 @@ if (($_GET == [])) {
             case 'blog':
                 require_once "controller/blog.php";
                 break;
-            case 'chitietsanpham':
-                require_once "chitietsanpham.php";
+            case 'chitiet_sanpham':
+                require_once "controller/chitiet_sanpham.php";
                 break;
             case 'chitiet_blog':
                 require_once "chitiet_blog.php";
