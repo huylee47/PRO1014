@@ -23,17 +23,19 @@ if (($_GET == [])) {
                 break;
             case 'chitiet_blog':
                 require_once "chitiet_blog.php";
-                break;      
-            case'dangnhap':
+                break;
+            case 'dangnhap':
                 require_once "controller/dangnhap.php";
                 break;
-                case'dangky':
-                    require_once "controller/dangky.php";
-                    break;
-                case'dangxuat':
-                    require_once "controller/dangxuat.php";
-                    break;      //     break;
-                    
+            case 'dangky':
+                require_once "controller/dangky.php";
+                break;
+            case 'dangxuat':
+                require_once "controller/dangxuat.php";
+                break;
+            case 'xoasanpham':
+                require_once "controller/xoa.php";
+                break;
         }
     }
 }
