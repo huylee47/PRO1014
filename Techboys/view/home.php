@@ -301,9 +301,9 @@
                                                         <a href="index.php?act=chitiet_sanpham&id=<?=$item['id_sanpham']?>"><?= $item['ten_sanpham'] ?></a>
                                                     </div>
                                                 </div>
-                                                <div class="product_extras">
+                                                <div class="product_extras" >
                                                     <button class="product_cart_button">
-                                                        Thêm vào giỏ hàng
+                                                    <a href="index.php?act=giohang&id=<?=$item['id_sanpham'] ?> "> Thêm vào giỏ hàng </a>
                                                     </button>
                                                 </div>
                                             </div>
