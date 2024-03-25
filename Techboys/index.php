@@ -36,6 +36,9 @@ if (($_GET == [])) {
             case 'xoasanpham':
                 require_once "controller/xoa.php";
                 break;
+            case 'dathang':
+                require_once "controller/dathang.php";
+                break;
         }
     }
 }
