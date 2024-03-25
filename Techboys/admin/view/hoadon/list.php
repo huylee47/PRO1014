@@ -33,10 +33,15 @@
                 <td><?= $item['id_taikhoan'] ?></td>
                 <td><?= $item['diachi'] ?></td>
                 <td><?= $item['id_voucher'] ?></td>
-                <td><?= $item['ngaytao']?></td>
+                <td><?= $item['ngaytao'] ?></td>
                 <td><?= $item['phuongthuc_thanhtoan'] ==  1 ? "Chuyển khoản" : "Tiền mặt"; ?></td>
-                <td><?=  $item['tinhtrang'] == 1  ? "Chưa giao"  : "Đã giao" ?></td>
-                <td></td>
+                <td><?= $item['tinhtrang'] == 1  ? "Chưa giao"  : "Đã giao" ?></td>
+                <td><?php
+                 $tongtien = 0;
+                    foreach ($listchitiethoadon as $item) {
+                      $tongtien += $item['gia'] * $item['so_luong'];
+                    }
+                    echo $tongtien ?>$</td>
                 <td><a class="btn btn-primary" href="index.php?act=chitiethoadon&id=<?= $item['id_hoadon'] ?>">chi tiết</a></td>
                 <td><a class="btn btn-primary" href="index.php?act=dagiaohang&id=<?= $item['id_hoadon'] ?>">Đã giao </a></td>
                 <td> <a class="btn btn-primary" href="index.php?act=chuagiaohang&id=<?= $item['id_hoadon'] ?>">Chưa giao</a></td>
