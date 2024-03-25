@@ -30,8 +30,10 @@ if (isset($_GET['id']) &&  $_GET['id'] > 0) {
 
 }
 $tongtien = 0;
-foreach ($_SESSION['giohang'] as $item) {
-    $tongtien += $item['gia'] * $item['soluong'];
+if (isset($_SESSION['giohang']) && is_array($_SESSION['giohang'])) {
+    foreach ($_SESSION['giohang'] as $item) {
+        $tongtien += $item['gia'] * $item['soluong'];
+    }
 }
 require_once 'view/giohang.php';
 require_once 'view/footer.php';
