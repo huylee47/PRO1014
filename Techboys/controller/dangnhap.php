@@ -15,3 +15,4 @@ if (!isset($_POST['dangnhap'])) {
         echo $thongbao = "Tài khoản không tồn tại";
     }
 }
+?>

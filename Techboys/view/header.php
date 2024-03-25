@@ -46,7 +46,15 @@
                                 $username = $_SESSION['user'];
                             ?>
                                 <div class="top_bar_user">
-                                    <div style="margin-right: 10px;">Hello <?php echo $username;?></div>    
+                                <div style="margin-right: 10px;">Hello <?php echo $username;?></div> 
+                                <?php
+                                if (isset($_SESSION['quyen']) && $_SESSION['quyen'] =='1') {
+                                    ?>
+                                    <div><a href="http://localhost/pro1014/Techboys/admin/">ADMIN</a></div>
+                                    <?php
+                                }
+                                ?>
+                                       
                                     <div><a href="index.php?act=dangxuat">Đăng xuất</a></div>
                                 </div>
                                 <?php }else{ 
