@@ -68,7 +68,7 @@
 
 				<div class="tongtien">
 					<h3>Tổng tiền giỏ hàng</h3>
-					<p><span>Tiền tạm tính</span> <span><?=$tongtien?></span></p>
+					<p><span>Tiền tạm tính</span> <span><?=$tongtien?>đ</span></p>
 					<p><span>Voucher</span> <span><select name="" class="voucher" required>
 								<option value="transfer"></option>
 								<option value="transfer">20%</option>
@@ -82,12 +82,12 @@
 								<!-- Thêm các phương thức thanh toán khác tại đây -->
 							</select></span></p>
 					<div class="total">
-						<p><span>Tổng tiền</span> <span>124,000đ</span></p>
+						<p><span>Tổng tiền</span> <span><?=$tongtien?>đ</span></p>
 					</div>
 
 				</div>
 				<div class="cart_buttons">
-					<button type="button" class="button cart_button_checkout">Đặt hàng</button>
+					<button type="submit" class="button cart_button_checkout">Đặt hàng</button>
 				</div>
 			</div>
 		</div>
