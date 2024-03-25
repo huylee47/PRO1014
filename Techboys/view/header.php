@@ -41,10 +41,25 @@
                                 <a href="mailto:fastsales@gmail.com">techboys@gmail.com</a>
                             </div>
                             <div class="top_bar_content ml-auto">
+                            <?php                    
+                            if(isset($_SESSION['user'])){
+                                $username = $_SESSION['user'];
+                            ?>
+                                <div class="top_bar_user">
+                                <div style="margin-right: 10px;">Hello <?php echo $username;?></div> 
                                 <?php
-                                if (isset($_SESSION['user'])) {
-                                    $username = $_SESSION['user'];
+                                if (isset($_SESSION['quyen']) && $_SESSION['quyen'] =='1') {
+                                    ?>
+                                    <div><a href="http://localhost/pro1014/Techboys/admin/">ADMIN</a></div>
+                                    <?php
+                                }
                                 ?>
+                                       
+                                    <div><a href="index.php?act=dangxuat">Đăng xuất</a></div>
+                                </div>
+                                <?php }else{ 
+                                    ?>
+
                                     <div class="top_bar_user">
                                         <div style="margin-right: 10px;">Hello <?php echo $username; ?></div>
                                         <div><a href="index.php?act=dangxuat">Đăng xuất</a></div>
