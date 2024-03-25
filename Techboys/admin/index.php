@@ -26,7 +26,7 @@ if (($_GET == [])) {
                 require_once "controller/sanpham/list_sp_all.php";
                 break;
             case 'chitietsanpham':
-                require_once "chitietsanpham.php";
+                require_once "controller/sanpham/chitiet.php";
                 break;
             case 'themsanpham':
                 require_once "controller/sanpham/add.php";
@@ -84,6 +84,7 @@ if (($_GET == [])) {
                 require_once "controller/tintuc/update.php";
 
                 break;
+
         }
     }
 }
