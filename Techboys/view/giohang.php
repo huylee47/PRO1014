@@ -29,7 +29,7 @@
 									<tr>
 										<td><?= $item['ten_sanpham'] ?></td>
 										<td><?php echo $item['gia'] ?></td>
-										<td class="centered"><input required type="number" value="<?php echo $item['soluong'] ?>"></td>
+										<td class="centered"><input required disabled type="number" value="<?php echo $item['soluong'] ?>"></td>
 										<td><img width="50" height="50" src="upload/<?php echo $item['img'] ?>" alt=""></td>
 										<td><a class="btn btn-primary" href="index.php?act=xoasanpham&id=<?= $item['id_sanpham']?>">Xóa</a></td>
 									</tr>
