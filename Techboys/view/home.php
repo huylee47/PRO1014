@@ -12,7 +12,7 @@
                     <h1 class="banner_text">new era of smartphones</h1>
                     <div class="banner_price"><span>$530</span>$460</div>
                     <div class="banner_product_name">Apple Iphone 6s</div>
-                    <div class="button banner_button"><a href="#">Shop Now</a></div>
+                    <div class="button banner_button"><a href="index.php?act=cuahang">Shop Now</a></div>
                 </div>
             </div>
         </div>
@@ -301,9 +301,9 @@
                                                         <a href="index.php?act=chitiet_sanpham&id=<?=$item['id_sanpham']?>"><?= $item['ten_sanpham'] ?></a>
                                                     </div>
                                                 </div>
-                                                <div class="product_extras">
+                                                <div class="product_extras" >
                                                     <button class="product_cart_button">
-                                                        Thêm vào giỏ hàng
+                                                    <a href="index.php?act=giohang&id=<?=$item['id_sanpham'] ?> "> Thêm vào giỏ hàng </a>
                                                     </button>
                                                 </div>
                                             </div>

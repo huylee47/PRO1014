@@ -1,7 +1,7 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <!-- aaaaaaaaaaa -->
+
 <head>
     <title>TechBoys</title>
     <meta charset="utf-8" />
@@ -59,14 +59,21 @@
                                 </div>
                                 <?php }else{ 
                                     ?>
+
                                     <div class="top_bar_user">
-                                    <div class="user_icon">
-                                        <img src="images/user.svg" alt="" />
+                                        <div style="margin-right: 10px;">Hello <?php echo $username; ?></div>
+                                        <div><a href="index.php?act=dangxuat">Đăng xuất</a></div>
                                     </div>
-                                    <div><a href="index.php?act=dangky">Đăng ký</a></div>
-                                    <div><a href="index.php?act=dangnhap">Đăng nhập</a></div>
-                                </div>
-                                <?php }?>
+                                <?php } else {
+                                ?>
+                                    <div class="top_bar_user">
+                                        <div class="user_icon">
+                                            <img src="images/user.svg" alt="" />
+                                        </div>
+                                        <div><a href="index.php?act=dangky">Đăng ký</a></div>
+                                        <div><a href="index.php?act=dangnhap">Đăng nhập</a></div>
+                                    </div>
+                                <?php } ?>
                             </div>
                         </div>
                     </div>
@@ -91,12 +98,11 @@
                                 <div class="header_search_content">
                                     <div class="header_search_form_container">
                                         <form action="#" class="header_search_form clearfix">
-                                            <input type="search" required="required" class="header_search_input"
-                                                placeholder="Tìm kiếm" />
-                                            <div >
+                                            <input type="search" required="required" class="header_search_input" placeholder="Tìm kiếm" />
+                                            <div>
                                                 <div class="custom_dropdown_list">
                                                     <span class="custom_dropdown_placeholder clc"></span>
-    
+
                                                     <ul class="custom_list clc">
                                                         <li>
                                                             <a class="clc" href="#">All Categories</a>
@@ -127,12 +133,16 @@
                                 <div class="cart">
                                     <div class="cart_container d-flex flex-row align-items-center justify-content-end">
                                         <div class="cart_icon">
-                                            <img src="images/icons8-shop-32.png"  alt="" />
-                                           
+                                            <img src="images/icons8-shop-32.png" alt="" />
+
                                         </div>
                                         <div class="cart_content">
                                             <div class="cart_text"><a href="index.php?act=giohang">Giỏ hàng</a></div>
-                                            <div class="cart_price">$85</div>
+                                            <div class="cart_price"><?php $tongtien = 0;
+                                                                    foreach ($_SESSION['giohang'] as $item) {
+                                                                        $tongtien += $item['gia'] * $item['soluong'];
+                                                                    }
+                                                                    echo $tongtien ?>$</div>
                                         </div>
                                     </div>
                                 </div>
@@ -151,22 +161,22 @@
                             <div class="main_nav_content d-flex flex-row">
                                 <!-- Categories Menu -->
                                 <div class="cat_menu_container">
-								<div class="cat_menu_title d-flex flex-row align-items-center justify-content-start">
-									<div class="cat_burger"><span></span><span></span><span></span></div>
-									<div class="cat_menu_text">Danh mục sản phẩm</div>
-								</div>
+                                    <div class="cat_menu_title d-flex flex-row align-items-center justify-content-start">
+                                        <div class="cat_burger"><span></span><span></span><span></span></div>
+                                        <div class="cat_menu_text">Danh mục sản phẩm</div>
+                                    </div>
 
-								<ul class="cat_menu">
-                                <?php
-                                require_once "model/danhmuc.php";
-                                $listdanhmuc = list_danhmuc();
-                                    foreach ($listdanhmuc as $key => $item) {
-                                    ?>
-                                    <li><a href="#"><?=$item['ten_danhmuc']?><i class="fas fa-chevron-right"></i></a></li>
-                                    <?php } ?>
-									
-								</ul>
-							</div>
+                                    <ul class="cat_menu">
+                                        <?php
+                                        require_once "model/danhmuc.php";
+                                        $listdanhmuc = list_danhmuc();
+                                        foreach ($listdanhmuc as $key => $item) {
+                                        ?>
+                                            <li><a href="#"><?= $item['ten_danhmuc'] ?><i class="fas fa-chevron-right"></i></a></li>
+                                        <?php } ?>
+
+                                    </ul>
+                                </div>
 
 
                                 <!-- Main Nav Menu -->

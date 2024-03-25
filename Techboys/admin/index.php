@@ -84,6 +84,7 @@ if (isset($_SESSION['quyen']) && $_SESSION['quyen'] == '1') {
                     require_once "controller/tintuc/update.php";
                     break;
             }
+
         }
     }
     

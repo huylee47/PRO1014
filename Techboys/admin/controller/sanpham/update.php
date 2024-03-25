@@ -15,9 +15,12 @@ if (isset($_POST['suasanpham'])) {
     $hinhanh= $_FILES['hinhanh']['name'];
     $nguongoc= $_POST['nguongoc'];
     $ghichu= $_POST['ghichu'];
+    $soluong=$_POST['soluong'];
+    $NSX=$_POST['NSX'];
+    $xuatxu=$_POST['xuatxu']; 
     if(isset($_FILES['hinhanh'])){
     move_uploaded_file($_FILES["hinhanh"]["tmp_name"],'../upload/'.$hinhanh);
-    sua_sanpham($id_dm,$id_sp,$tensp,$gia,$hinhanh,$nguongoc,$ghichu);
+    sua_sanpham($id_dm,$id_sp,$tensp,$gia,$hinhanh,$nguongoc,$ghichu,$soluong,$NSX,$xuatxu);
     echo "<script type='text/javascript'>window.top.location='http://localhost/PRO1014/Techboys/admin/index.php?act=listsanpham';</script>";
     exit;
 }
