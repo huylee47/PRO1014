@@ -45,16 +45,12 @@
 						<h3>Thông tin khách hàng</h3>
 						<div>
 							<label for="">Họ tên</label>
-							<input required type="text" name="hoten">
+							<input required type="text" name="ten">
 						</div>
 						<div>
 							<label for="">Số điện thoại</label>
 							<input required type="text" name="sdt">
-						</div>
-						<div>
-							<label for="">Email</label>
-							<input required type="text" name="email">
-						</div>
+						</div>	
 						<div>
 							<label for="">Địa chỉ</label>
 							<input required type="text" name="diachi">
@@ -75,10 +71,11 @@
 								<option value="cash">30%</option>
 								<!-- Thêm các phương thức thanh toán khác tại đây -->
 							</select></span></p>
-					<p><span>Phương thức thanh toán</span> <span><select name="" class="voucher" required>
-								<option value="transfer"></option>
-								<option value="transfer">chuyển khoản</option>
-								<option value="cash">tiền mặt</option>
+					<p><span>Phương thức thanh toán</span> <span>
+						<select name="pttt" class="voucher" required>
+								<option value=""></option>
+								<option value="1">chuyển khoản</option>
+								<option value="2">tiền mặt</option>
 								<!-- Thêm các phương thức thanh toán khác tại đây -->
 							</select></span></p>
 					<div class="total">

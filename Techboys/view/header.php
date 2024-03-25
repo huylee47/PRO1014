@@ -64,7 +64,7 @@
                                         <div style="margin-right: 10px;">Hello <?php echo $username; ?></div>
                                         <div><a href="index.php?act=dangxuat">Đăng xuất</a></div>
                                     </div>
-                                <?php } else {
+                                <?php }{
                                 ?>
                                     <div class="top_bar_user">
                                         <div class="user_icon">
