@@ -7,6 +7,7 @@ if (isset($_GET['id']) &&  $_GET['id'] > 0) {
     if (!isset($_SESSION['giohang'])) {
       $_SESSION['giohang'] = [];
     }
+
     $gioHang = [
         'id_sanpham' => $sanpham['id_sanpham'],
         'ten_sanpham' => $sanpham['ten_sanpham'],
@@ -14,6 +15,7 @@ if (isset($_GET['id']) &&  $_GET['id'] > 0) {
         'soluong' => 1,
         'img' => $sanpham['img'],
     ];
+   
     $check = false;
     foreach ($_SESSION['giohang'] as $key => $item) {
         if ($item['id_sanpham'] == $id) {
@@ -25,6 +27,11 @@ if (isset($_GET['id']) &&  $_GET['id'] > 0) {
     if ($check == false) {
         array_push($_SESSION['giohang'], $gioHang);
     }
+
+}
+$tongtien = 0;
+foreach ($_SESSION['giohang'] as $item) {
+    $tongtien += $item['gia'] * $item['soluong'];
 }
 require_once 'view/giohang.php';
 require_once 'view/footer.php';

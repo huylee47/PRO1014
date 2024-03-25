@@ -68,8 +68,7 @@
 
 				<div class="tongtien">
 					<h3>Tổng tiền giỏ hàng</h3>
-					<p><span>Tiền tạm tính</span> <span>114,000đ</span></p>
-					<p><span>Phí vận chuyển</span> <span>10,000đ</span></p>
+					<p><span>Tiền tạm tính</span> <span><?=$tongtien?></span></p>
 					<p><span>Voucher</span> <span><select name="" class="voucher" required>
 								<option value="transfer"></option>
 								<option value="transfer">20%</option>
