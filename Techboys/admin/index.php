@@ -27,7 +27,7 @@ if (($_GET == [])) {
                 require_once "controller/sanpham/list_sp_all.php";
                 break;
             case 'chitietsanpham':
-                require_once "chitietsanpham.php";
+                require_once "controller/sanpham/chitiet.php";
                 break;
             case 'themsanpham':
                 require_once "controller/sanpham/add.php";
@@ -61,12 +61,12 @@ if (($_GET == [])) {
             case 'hienbinhluan':
                 require_once "controller/binhluan/show.php";
                 break;
-                case 'listhoadon':
-                    require_once "controller/hoadon/list.php";
-                    break;
-                    case 'xoahoadon':
-                        require_once "controller/hoadon/xoa.php";
-                        break;
+            case 'listhoadon':
+                require_once "controller/hoadon/list.php";
+                break;
+            case 'xoahoadon':
+                require_once "controller/hoadon/xoa.php";
+                break;
         }
     }
 }

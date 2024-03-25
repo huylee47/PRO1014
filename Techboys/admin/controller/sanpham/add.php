@@ -8,10 +8,16 @@ if (isset($_POST['themsanpham'])) {
     $tensp=$_POST['tensp'] ;
     $gia=$_POST['gia'] ;
     $hinhanh= $_FILES['hinhanh']['name'];
-    $nguongoc= $_POST['nguongoc'];
     $ghichu= $_POST['ghichu'];
+    $soluong=$_POST['soluong'];
+    $NSX=$_POST['NSX'];
+    $xuatxu=$_POST['xuatxu']; 
     if(isset($_FILES['hinhanh'])){
     move_uploaded_file($_FILES["hinhanh"]["tmp_name"],'../upload/'.$hinhanh);
 }
-    themsanpham($id_dm,$tensp,$gia,$hinhanh,$nguongoc,$ghichu);
+    $id_sp = themsanpham($id_dm,$tensp,$gia,$hinhanh,$ghichu,$soluong,$NSX,$xuatxu);  
+
 }
+
+   
+
