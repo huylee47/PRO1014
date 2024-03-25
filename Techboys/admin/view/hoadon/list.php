@@ -35,11 +35,11 @@
                 <td><?= $item['id_voucher'] ?></td>
                 <td><?= $item['ngaytao']?></td>
                 <td><?= $item['phuongthuc_thanhtoan']?></td>
-                <td><?= $item['tinhtrang']?></td>
+                <td><?=  $item['tinhtrang'] == 1  ? "Chưa giao"  : "Đã giao" ?></td>
                 <td></td>
                 <td><a class="btn btn-primary" href="index.php?act=chitiethoadon&id=<?= $item['id_hoadon'] ?>">chi tiết</a></td>
-                <td><a class="btn btn-primary" href="index.php?act=suahoadon&id=<?= $item['id_hoadon'] ?>">Sửa</a></td>
-                <td> <a class="btn btn-primary" href="index.php?act=xoahoadon&id=<?= $item['id_hoadon'] ?>">Xóa</a></td>
+                <td><a class="btn btn-primary" href="index.php?act=dagiaohang&id=<?= $item['id_hoadon'] ?>">Đã giao </a></td>
+                <td> <a class="btn btn-primary" href="index.php?act=chuagiaohang&id=<?= $item['id_hoadon'] ?>">Chưa giao</a></td>
               </tr>
             <?php } ?>
           </tbody>

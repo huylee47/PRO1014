@@ -70,6 +70,7 @@ if (($_GET == [])) {
             case 'chitiethoadon':
                 require_once "controller/hoadon/chitiethoadon.php";
                 break;
+
             case 'listtintuc':
                 require_once "controller/tintuc/list.php";
                 break;
@@ -81,6 +82,7 @@ if (($_GET == [])) {
                 break;
             case 'suatintuc':
                 require_once "controller/tintuc/update.php";
+
                 break;
         }
     }
