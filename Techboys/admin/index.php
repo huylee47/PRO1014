@@ -1,7 +1,6 @@
 <?php
 session_start();
 require_once 'view/header.php';
-// aaaaaaaaaaaaaaaaaaaaaa
 if (($_GET == [])) {
     require_once 'view/home.php';
 } else {
@@ -52,6 +51,7 @@ if (($_GET == [])) {
                 break;
             case 'listbinhluan':
                 require_once "controller/binhluan/list.php";
+                break;
             case 'anbinhluan':
                 require_once "controller/binhluan/hide.php";
                 break;
@@ -67,6 +67,24 @@ if (($_GET == [])) {
             case 'xoahoadon':
                 require_once "controller/hoadon/xoa.php";
                 break;
+            case 'chitiethoadon':
+                require_once "controller/hoadon/chitiethoadon.php";
+                break;
+
+            case 'listtintuc':
+                require_once "controller/tintuc/list.php";
+                break;
+            case 'themtintuc':
+                require_once "controller/tintuc/add.php";
+                break;
+            case 'xoatintuc':
+                require_once "controller/tintuc/xoa.php";
+                break;
+            case 'suatintuc':
+                require_once "controller/tintuc/update.php";
+
+                break;
+
         }
     }
 }

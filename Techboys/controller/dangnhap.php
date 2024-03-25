@@ -9,7 +9,7 @@ if (!isset($_POST['dangnhap'])) {
     if (is_array($checkuser)) {
         $_SESSION['user'] = $username;
         $_SESSION['quyen'] = $checkuser['quyen'];
-        echo $_SESSION['quyen'];
+        $_SESSION['id_taikhoan'] = $checkuser['id_taikhoan'];
         header("location: index.php");
     } else {
         echo $thongbao = "Tài khoản không tồn tại";

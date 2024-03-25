@@ -18,4 +18,18 @@ function update_hoadon($id,$tinhtrang)
     $sql = "UPDATE hoadon SET tinh_trang = '$tinhtrang' WHERE id_hoadon = '$id'";
     pdo_execute($sql);
 }
+function loadall_chitiethoadon(){
+    $sql="select * from chitiet_hoadon";
+
+    $listchitiethoadon= pdo_query($sql);
+    return $listchitiethoadon;
+}
+function dagiaohang($id_hoadon) {
+    $sql = "UPDATE hoadon SET tinhtrang = 2 WHERE id_hoadon=$id_hoadon";
+    pdo_execute($sql);
+}
+function chuagiaohang($id_hoadon) {
+    $sql = "UPDATE hoadon SET tinhtrang = 1 WHERE id_hoadon=$id_hoadon";
+    pdo_execute($sql);
+}
 ?>

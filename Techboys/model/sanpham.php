@@ -8,4 +8,9 @@ require_once "pdo.php";
     $sql="select * from sanpham where id_sanpham= $id";
     return pdo_query_one($sql);
 }
+function loadone_sanpham($id){
+   $sql="select * from sanpham where id_sanpham=".$id;
+   $sp= pdo_query_one($sql);
+   return $sp;
+}
 ?>
