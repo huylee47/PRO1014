@@ -3,8 +3,8 @@
 	<link rel="stylesheet" type="text/css" href="styles/cart_responsive.css">
 	<link rel="stylesheet" type="text/css" href="styles/main_styles.css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <!-- Cartnnnnnnnnnnnnnnnnnnnnnn -->
 <div class="cart_section">
@@ -31,7 +31,7 @@
 										<td><?php echo $item['gia'] ?></td>
 										<td class="centered"><input required disabled type="number" value="<?php echo $item['soluong'] ?>"></td>
 										<td><img width="50" height="50" src="upload/<?php echo $item['img'] ?>" alt=""></td>
-										<td><a class="btn btn-primary" href="index.php?act=xoasanpham&id=<?= $item['id_sanpham']?>">Xóa</a></td>
+										<td><a class="btn btn-primary" href="index.php?act=xoasanpham&id=<?= $item['id_sanpham'] ?>">Xóa</a></td>
 									</tr>
 							<?php
 								}
@@ -50,7 +50,7 @@
 						<div>
 							<label for="">Số điện thoại</label>
 							<input required type="text" name="sdt">
-						</div>	
+						</div>
 						<div>
 							<label for="">Địa chỉ</label>
 							<input required type="text" name="diachi">
@@ -64,22 +64,19 @@
 
 				<div class="tongtien">
 					<h3>Tổng tiền giỏ hàng</h3>
-					<p><span>Tiền tạm tính</span> <span><?=$tongtien?>đ</span></p>
-					<p><span>Voucher</span> <span><select name="" class="voucher1" required>
-								<option value="voucher"></option>
-								<option value="voucher">20%</option>
-								<option value="voucher">30%</option>
-								<!-- Thêm các phương thức thanh toán khác tại đây -->
-							</select></span></p>
+					<p><span>Tiền tạm tính</span> <span><?= $tongtien ?>đ</span></p>
+					<p><span>Voucher</span> <span>
+							<input type="text">
+						</span></p>
 					<p><span>Phương thức thanh toán</span> <span>
-						<select name="pttt" class="voucher" required>
+							<select name="pttt" class="voucher" required>
 								<option value=""></option>
 								<option value="1">chuyển khoản</option>
 								<option value="2">tiền mặt</option>
 								<!-- Thêm các phương thức thanh toán khác tại đây -->
 							</select></span></p>
 					<div class="total">
-						<p><span>Tổng tiền</span> <span><?=$tongtien?>đ</span></p>
+						<p><span>Tổng tiền</span> <span><?= $tongtien ?>đ</span></p>
 					</div>
 
 				</div>
