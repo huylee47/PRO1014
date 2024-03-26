@@ -83,13 +83,12 @@ if (isset($_SESSION['quyen']) && $_SESSION['quyen'] == '1') {
                 case 'suatintuc':
                     require_once "controller/tintuc/update.php";
                     break;
+          
             }
-
         }
     }
-    
+
     require_once 'view/footer.php';
-    
-}else {
+} else {
     header('location:http://localhost/PRO1014/Techboys/index.php?act=dangnhap');
 }
