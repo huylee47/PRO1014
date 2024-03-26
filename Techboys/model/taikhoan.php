@@ -9,4 +9,8 @@ function insert_taikhoan($email, $user, $pass) {
     session_unset ();
     pdo_execute($sql);
   }
+function get_ten_theo_id($id_tk){
+  $sql= "SELECT * FROM taikhoan WHERE id_taikhoan = $id_tk";
+  return pdo_query_one($sql)['ten'];
+}
 ?>
