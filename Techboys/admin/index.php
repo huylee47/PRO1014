@@ -83,7 +83,9 @@ if (isset($_SESSION['quyen']) && $_SESSION['quyen'] == '1') {
                 case 'suatintuc':
                     require_once "controller/tintuc/update.php";
                     break;
-          
+                case 'themkhoanh':
+                    require_once "controller/sanpham/add_storage.php";
+                    break;
             }
         }
     }

@@ -32,6 +32,7 @@
                 <td><a class="btn btn-primary" href="index.php?act=chitietsanpham&id=<?= $item['id_sanpham'] ?>">Chi tiết</a></td>
                 <td><a class="btn btn-primary" href="index.php?act=suasanpham&id=<?= $item['id_sanpham'] ?>">Sửa</a></td>
                 <td> <a class="btn btn-primary" href="index.php?act=xoasanpham&id=<?= $item['id_sanpham'] ?>">Xóa</a></td>
+                <td> <a class="btn btn-primary" href="index.php?act=themkhoanh&id=<?= $item['id_sanpham'] ?>">Kho ảnh</a></td>
               </tr>
             <?php } ?>
           </tbody>
