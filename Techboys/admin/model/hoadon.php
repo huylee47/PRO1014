@@ -15,7 +15,7 @@ function list_mothoadon($id)
 }
 function update_hoadon($id,$tinhtrang)
 {
-    $sql = "UPDATE hoadon SET tinh_trang = '$tinhtrang' WHERE id_hoadon = '$id'";
+    $sql = "UPDATE hoadon SET tinhtrang = '$tinhtrang' WHERE id_hoadon = '$id'";
     pdo_execute($sql);
 }
 function loadall_chitiethoadon(){
