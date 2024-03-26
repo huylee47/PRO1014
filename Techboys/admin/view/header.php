@@ -273,8 +273,7 @@
                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">
                 <?php
                 if(isset($_SESSION['user'])){
-                $username = $_SESSION['user'];
-                echo $username;}
+                echo $_SESSION['user']['user'];}
                 ?>
                 </span></span>
                 <img class="img-profile rounded-circle" src="img/undraw_profile.svg">

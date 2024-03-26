@@ -1,6 +1,6 @@
 <?php
 session_start();
-if (isset($_SESSION['quyen']) && $_SESSION['quyen'] == '1') {
+if (isset($_SESSION['user']['quyen']) && $_SESSION['user']['quyen'] == '1') {
     require_once 'view/header.php';
     if (($_GET == [])) {
         require_once 'view/home.php';
