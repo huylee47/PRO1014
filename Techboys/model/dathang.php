@@ -1,7 +1,7 @@
 <?php
 require_once "model/pdo.php";
-function insert_hoadon($ten, $sdt,  $ghichu, $diachi, $pttt) {
-        $sql = "INSERT INTO `hoadon` (ten, SDT,  ghichu, diachi, phuongthuc_thanhtoan) VALUES ('$ten', '$sdt',  '$ghichu', '$diachi', '$pttt')";
+function insert_hoadon($id_taikhoan,$ten, $sdt,  $ghichu, $diachi, $pttt) {
+        $sql = "INSERT INTO `hoadon` (id_taikhoan,ten, SDT,  ghichu, diachi, phuongthuc_thanhtoan) VALUES ('$id_taikhoan','$ten', '$sdt',  '$ghichu', '$diachi', '$pttt')";
         return pdo_execute_return_id($sql);
     }
 
