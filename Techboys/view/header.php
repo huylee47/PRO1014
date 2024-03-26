@@ -131,7 +131,7 @@
                                            
                                         </div>
                                         <div class="cart_content">
-                                            <div class="cart_text"><a href="index.php?act=giohang">Giỏ hàng</a></div>
+                                            <div class="cart_text"><a href="index.php?act=showgiohang">Giỏ hàng</a></div>
                                             <div class="cart_price">
                                                 <?php
                                                $tongtien = 0;

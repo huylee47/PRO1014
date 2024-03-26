@@ -23,8 +23,8 @@
 								<th></th>
 							</tr>
 							<?php
-							if (isset($_SESSION['giohang'])) {
-								foreach ($_SESSION['giohang'] as $key => $item) {
+							if (isset($gioHangs)) {
+								foreach ($gioHangs as $key => $item) {
 							?>
 									<tr>
 										<td><?= $item['ten_sanpham'] ?></td>
@@ -40,20 +40,20 @@
 						</table>
 
 						<!-- Order Total -->
-
+                    
 						<br><br>
 						<h3>Thông tin khách hàng</h3>
 						<div>
 							<label for="">Họ tên</label>
-							<input required type="text" name="ten">
+							<input required type="text" name="ten" value="<?=isset($_SESSION['user']) ? $_SESSION['user']['ten']: ""; ?>">
 						</div>
 						<div>
 							<label for="">Số điện thoại</label>
-							<input required type="text" name="sdt">
+							<input required type="text" name="sdt" value="<?=isset($_SESSION['user']) ? $_SESSION['user']['SDT']: ""; ?>">
 						</div>
 						<div>
 							<label for="">Địa chỉ</label>
-							<input required type="text" name="diachi">
+							<input required type="text" name="diachi" value="<?=isset($_SESSION['user']) ? $_SESSION['user']['diachi']: ""; ?>">
 						</div>
 						<div>
 							<label for="">Ghi chú</label>

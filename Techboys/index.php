@@ -42,7 +42,9 @@ if (($_GET == [])) {
             case 'thembinhluan';
                 require_once "controller/binhluan.php";
                 break;
-
+                case 'showgiohang';
+                require_once "controller/showgiohang.php";
+                break;
         }
     }
 }

@@ -1,7 +1,7 @@
 <?php
 require_once './view/header.php';
 require_once "model/dathang.php";
-$id_taikhoan=$_SESSION['id_taikhoan'];
+$id_taikhoan=$_SESSION['user']['id_taikhoan'];
 $ten = $_POST['ten'];
 $sdt = $_POST['sdt'];
 $ghichu = $_POST['ghichu'];
