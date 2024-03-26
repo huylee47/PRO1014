@@ -65,10 +65,10 @@
 				<div class="tongtien">
 					<h3>Tổng tiền giỏ hàng</h3>
 					<p><span>Tiền tạm tính</span> <span><?=$tongtien?>đ</span></p>
-					<p><span>Voucher</span> <span><select name="" class="voucher" required>
-								<option value="transfer"></option>
-								<option value="transfer">20%</option>
-								<option value="cash">30%</option>
+					<p><span>Voucher</span> <span><select name="" class="voucher1" required>
+								<option value="voucher"></option>
+								<option value="voucher">20%</option>
+								<option value="voucher">30%</option>
 								<!-- Thêm các phương thức thanh toán khác tại đây -->
 							</select></span></p>
 					<p><span>Phương thức thanh toán</span> <span>

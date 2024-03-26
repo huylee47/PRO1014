@@ -17,17 +17,25 @@
               <th>ID voucher</th>
               <th>Ngày lập</th>
               <th>Pttt</th>
-              <th>Tình Trạng</th>
               <th>Tổng tiền</th>
               <th>Chi tiết</th>
 
-              <th colspan="2" style="text-align: center;">Chức năng</th>
             </tr>
           </thead>
           <tbody>
             <?php
-            foreach ($listhoadonAll as $key => $item) {
-            ?>
+            foreach ($listhoadonAll as $item) {
+              // Lấy danh sách chi tiết hóa đơn cho hóa đơn hiện tại
+              $listchitiethoadon = load_all_cthoadon_by_idhoadon($item['id_hoadon']);
+
+              // Tính tổng tiền cho hóa đơn hiện tại
+              $tongtien = 0;
+              foreach ($listchitiethoadon as $cthd) {
+                $tongtien += $cthd['gia'] * $cthd['so_luong'];
+              }
+
+             // Hiển thị thông tin hóa đơn và tổng tiền
+            ?> 
               <tr>
                 <td><?= $item['id_hoadon'] ?></td>
                 <td><?= $item['id_taikhoan'] ?></td>
@@ -35,18 +43,13 @@
                 <td><?= $item['id_voucher'] ?></td>
                 <td><?= $item['ngaytao'] ?></td>
                 <td><?= $item['phuongthuc_thanhtoan'] ==  1 ? "Chuyển khoản" : "Tiền mặt"; ?></td>
-                <td><?= $item['tinhtrang'] == 1  ? "Chưa giao"  : "Đã giao" ?></td>
-                <td><?php
-                 $tongtien = 0;
-                    foreach ($listchitiethoadon as $item) {
-                      $tongtien += $item['gia'] * $item['so_luong'];
-                    }
-                    echo $tongtien ?>$</td>
+                <td><?= $tongtien ?>$</td>
                 <td><a class="btn btn-primary" href="index.php?act=chitiethoadon&id=<?= $item['id_hoadon'] ?>">chi tiết</a></td>
-                <td><a class="btn btn-primary" href="index.php?act=dagiaohang&id=<?= $item['id_hoadon'] ?>">Đã giao </a></td>
-                <td> <a class="btn btn-primary" href="index.php?act=chuagiaohang&id=<?= $item['id_hoadon'] ?>">Chưa giao</a></td>
               </tr>
-            <?php } ?>
+            <?php
+            }
+            ?>
+
           </tbody>
         </table>
       </div>
