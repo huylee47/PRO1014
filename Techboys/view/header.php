@@ -132,7 +132,15 @@
                                         </div>
                                         <div class="cart_content">
                                             <div class="cart_text"><a href="index.php?act=giohang">Giỏ hàng</a></div>
-                                            <div class="cart_price">$85</div>
+                                            <div class="cart_price">
+                                                <?php
+                                                $tongtien=0;
+                                                 foreach ($_SESSION['giohang'] as $item) {
+                                                     $tongtien += $item['gia'] * $item['soluong'];
+                                                 }
+                                                     echo $tongtien;
+                                                ?>đ
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

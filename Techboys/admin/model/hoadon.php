@@ -33,7 +33,7 @@ function chuagiaohang($id_hoadon) {
     pdo_execute($sql);
 }
 function load_all_cthoadon_by_idhoadon($id) {
-    $sql = "SELECT so_luong, gia FROM `chitiet_hoadon` where id_hoadon = $id";
+    $sql = "SELECT * FROM `chitiet_hoadon` where id_hoadon = $id";
     return pdo_query($sql);
 }
 ?>
