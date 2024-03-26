@@ -1661,6 +1661,9 @@ button, input, select, textarea {
 }.tongtien h3{
 	margin-bottom: 40px;
 	margin-top: -10px;
+} .tongtien input{
+	width: 120px;
+	height: 22px;
 }
 
 
