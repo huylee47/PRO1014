@@ -1,0 +1,41 @@
+.khungbinhluan {
+    max-height: 300px;
+    min-height: 100px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-bottom: 5px;
+    max-width: 65%;
+  }
+  
+  .chitietbinhluan {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+  }
+  
+  .hoten_binhluan {
+    float: left;
+    width: 20%;
+  }
+  
+  .noidung_binhluan {
+    float: left;
+    width: 40%;
+  }
+  
+  .ngaygio_binhluan {
+    float: left;
+    width: 20%;
+  }
+  .avatar{
+    float: left;
+    width: 20%;
+  }
+  .ava{
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
