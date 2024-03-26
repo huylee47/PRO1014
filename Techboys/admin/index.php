@@ -86,6 +86,9 @@ if (isset($_SESSION['quyen']) && $_SESSION['quyen'] == '1') {
                 case 'themkhoanh':
                     require_once "controller/sanpham/add_storage.php";
                     break;
+                case 'xoakhoanh':
+                    require_once "controller/sanpham/xoa_storage.php";
+                    break;
                 case 'tinhtrangdon':
                     require_once "controller/hoadon/tinhtrang.php";
                     break;
