@@ -86,16 +86,23 @@
         </div>
     </div>
 </div>
+<?php if(isset($_SESSION['user'])): ?>
 <div class="container">
     <h2>Bình Luận</h2>
     <form action="index.php?act=thembinhluan" method="POST">
-    <textarea class="exampleFormControlTextarea" name="noidung" id="" cols="100" rows="2" placeholder="Viết bình luận"></textarea>
-    <br>
-    <input type="hidden" name="idnguoidung" value="    <?php echo $_SESSION['user']['id_taikhoan'] ?>">
-    <input type="hidden" name="idsanpham" value=" <?= $id_sp ?>">
-    <button id="thembinhluan" class="btn btn-primary">Gửi bình luận</button>
+        <textarea class="exampleFormControlTextarea" name="noidung" id="" cols="100" rows="2" placeholder="Viết bình luận"></textarea>
+        <br>
+        <input type="hidden" name="idnguoidung" value="<?php echo $_SESSION['user']['id_taikhoan']; ?>">
+        <input type="hidden" name="idsanpham" value="<?= $id_sp ?>">
+        <button id="thembinhluan" class="btn btn-primary">Gửi bình luận</button>
     </form>
 </div>
+<?php else: ?>
+<span class="title_require_login">Bạn phải đăng nhập để bình luận</span>
+<?php endif; ?>
+
+
+
 <div class="container">
     <br>
     <div>
