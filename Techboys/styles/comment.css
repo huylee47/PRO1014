@@ -1,11 +1,12 @@
 .khungbinhluan {
+  position: relative;
     max-height: 300px;
     min-height: 100px;
     overflow: auto;
     border: 1px solid #ddd;
     padding: 5px;
     margin-bottom: 5px;
-    max-width: 65%;
+    width: 50rem;
   }
   
   .chitietbinhluan {
@@ -38,4 +39,44 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
+  }
+  .context{
+    float: left;
+    width: 20%;
+    float:inline-end;
+    width: 80%;
+    display: block;
+  }
+  .contextl{
+    position: relative;
+
+    float: left;
+    width: 35%;
+  }
+  .log:hover{
+    color: white;
+  }
+  .contextrr{
+    float: left;
+    position: relative;
+    left: 9rem;
+    width: 30%;
+    display: inline-block;
+  }
+  .contextr{
+    float: inline-end;
+    width: 35%;
+  }
+
+  .fixed{
+    width: 50rem;
+    height: 6rem;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #dcdcdc;
+    background-color: #ffffff;
+    text-align: center;
+    color:rgb(255, 0, 0);
+    position: relative;
+    
   }
