@@ -5,7 +5,7 @@ require_once 'model/sanpham.php';
 require_once 'model/taikhoan.php';
 $listsanpham=load_sanpham();
 $id_sp=$_GET['id'];
-$listbl= list_bl($id_sp);
+$listbl= hienthi_binhluan($id_sp);
 if (isset($_GET['id'])) {
     $listSanPham = layHetSanPhamTheoId($_GET['id']);
 }
