@@ -114,6 +114,7 @@
     <div class="noidung_binhluan"><?= $item['noidung'] ?> </div>
     <div class="ngaygio_binhluan"><span><?= $ngayTao ?></span> </div>
     </div>
+    
     <?php
     }
     ?>

@@ -9,6 +9,10 @@ function them_binhluan($id_tk,$noidung,$id_sp,$trangthai=1){
  pdo_execute($sql);
 
 }
+function hienthi_binhluan($id_sp){
+    $sql= "SELECT * FROM binhluan WHERE id_sanpham =$id_sp AND trangthai=1 ORDER BY id_binhluan DESC ";
+    return pdo_query($sql);
+}
 // function date(){
 //     $sql= "SELECT * ,DATE_FORMAT(ngaytao,'%Y-%m-%d') AS ngaytaodate FROM binhluan ";
 //     return pdo_query($sql);
