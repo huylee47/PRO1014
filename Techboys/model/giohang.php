@@ -34,3 +34,8 @@ function layChiTietGioHang($id_tk)
     `chitiet_giohang` gh inner join sanpham sp on gh.id_sanpham = sp.id_sanpham where gh.id_taikhoan = $id_tk";
     return pdo_query($sql);
 }
+function xoa_giohang($id)
+{
+    $sql = "DELETE FROM chitiet_giohang WHERE id_sanpham =$id";
+    pdo_execute($sql);
+}
