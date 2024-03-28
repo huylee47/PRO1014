@@ -1774,7 +1774,7 @@ section
 	outline: none;
 	font-size: 18px;
 	font-weight: 400;
-	color: #FFFFFF;
+
 	cursor: pointer;
 	margin-top: 19px;
 	border-bottom-left-radius: 5px;
@@ -1788,6 +1788,7 @@ section
 .product_cart_button:hover
 {
 	background: rgba(14, 140, 228, 0.8);
+	
 }
 .featured_slider .slick-dots
 {
