@@ -54,6 +54,9 @@
   .log:hover{
     color: white;
   }
+  button:hover{
+    color: white;
+  }
   .contextrr{
     float: left;
     position: relative;
