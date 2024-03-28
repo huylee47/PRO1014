@@ -303,7 +303,7 @@
                                                 </div>
                                                 <div class="product_extras" >
                                                     <button class="product_cart_button">
-                                                    <a href="index.php?act=giohang&id=<?=$item['id_sanpham'] ?> "> Thêm vào giỏ hàng </a>
+                                                    <a href="index.php?act=giohang&id=<?=$item['id_sanpham'] ?> "style="color: white;"> Thêm vào giỏ hàng </a>
                                                     </button>
                                                 </div>
                                             </div>
