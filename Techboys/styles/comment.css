@@ -1,12 +1,12 @@
 .khungbinhluan {
   position: relative;
     max-height: 300px;
-    min-height: 100px;
+    min-height: 200px;
     overflow: auto;
     border: 1px solid #ddd;
     padding: 5px;
     margin-bottom: 5px;
-    width: 50rem;
+    width: 80%;
   }
   
   .chitietbinhluan {
@@ -23,7 +23,7 @@
   
   .noidung_binhluan {
     float: left;
-    width: 40%;
+    width: 55%;
   }
   
   .ngaygio_binhluan {
@@ -32,19 +32,17 @@
   }
   .avatar{
     float: left;
-    width: 20%;
+    width: 5%;
   }
   .ava{
     vertical-align: middle;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
   }
   .context{
     float: left;
-    width: 20%;
-    float:inline-end;
-    width: 80%;
+    width: 100%;
     display: block;
   }
   .contextl{
@@ -61,22 +59,38 @@
     position: relative;
     left: 9rem;
     width: 30%;
-    display: inline-block;
   }
   .contextr{
     float: inline-end;
     width: 35%;
   }
-
   .fixed{
     width: 50rem;
     height: 6rem;
     box-sizing: border-box;
     border-radius: 10px;
-    border: 1px solid #dcdcdc;
     background-color: #ffffff;
     text-align: center;
     color:rgb(255, 0, 0);
     position: relative;
     
   }
+  .banner .title{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+    width: 50ch;
+    border-right: 3px solid #ffffff;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(50) infinite alternate-reverse;
+}
+@keyframes typing{
+from{
+    width: 0ch;
+}
+}
