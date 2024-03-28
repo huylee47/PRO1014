@@ -288,7 +288,9 @@
 
                                         <div class="product_item discount d-flex flex-column align-items-center justify-content-center text-center">
                                             <div class="product_image d-flex flex-column align-items-center justify-content-center">
-                                                <img width="150px" height="180px" src="/PRO1014/Techboys/upload/<?php echo $item['img'] ?>" alt="" />
+                                                <a href="index.php?act=chitiet_sanpham&id=<?=$item['id_sanpham']?>">
+                                                <img width="150px" height="120px" src="/PRO1014/Techboys/upload/<?php echo $item['img'] ?>"/></a>
+                                                
                                             </div>
 
                                             <div class="product_content">
