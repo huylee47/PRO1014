@@ -10,6 +10,6 @@
     <label for="" class="form-label">Ảnh</label>
     <input required type="file" accept="image/*" class="form-control" name="hinhanh">
   </div>
-  <input type="hidden" name="id_nguoitao" value="<?= $_SESSION['id_taikhoan'] ?>">
+  <input type="hidden" name="id_nguoitao" value="<?= $_SESSION['user']['id_taikhoan'] ?>">
   <button type="submit" class="btn btn-primary" name="themtintuc">Thêm</button>
 </form>

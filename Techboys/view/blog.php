@@ -28,7 +28,7 @@
 					<div class="blog_post">
 							<div><img class="blog_image" src="/PRO1014/Techboys/upload/<?php echo $item['img']?>"></img></div>
 							<div class="blog_text"><?= substr($item['noidung'], 0, 25) ?>...</div>
-							<div class="blog_button"><a href="blog_single.html">Đọc</a></div>
+							<div class="blog_button"><a href="index.php?act=chitiettintuc&&id=<?=$item['id_tintuc']?>">Đọc</a></div>
 					</div>
 					<?php } ?>
 
