@@ -26,7 +26,7 @@
               <tr>
                 <td><?= $item['id_voucher'] ?></td>
                 <td><?= $item['ten_voucher'] ?></td>
-                <td><?= $item['giagiam'] ?></td>
+                <td><?= $item['giagiam'] ?>%</td>
                 <td><a class="btn btn-primary" href="index.php?act=suavoucher&id=<?= $item['id_voucher'] ?>">Sửa</a></td>
                 <td> <a class="btn btn-primary" href="index.php?act=xoavoucher&id=<?= $item['id_voucher'] ?>">Xóa</a></td>
               </tr>
