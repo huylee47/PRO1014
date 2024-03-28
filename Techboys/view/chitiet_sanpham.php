@@ -6,7 +6,7 @@
 
 <!-- Single Product -->
 
-
+<div class="single_product">
     <div class="container">
         <div class="row">
 
@@ -85,7 +85,7 @@
 
         </div>
     </div>
-
+</div>
 
 <?php if (isset($_SESSION['user'])) : ?>
     <div class="container">
