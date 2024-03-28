@@ -102,10 +102,11 @@
 
     <?php else : ?>
         <div>
-            <div class="context">
+            <div class="container">
               <div class="fixed">
                 <br>
-                <h5>BẠN PHẢI ĐĂNG NHẬP ĐỂ BÌNH LUẬN</h5>
+                <div class="banner"><h5 class="title">BẠN PHẢI ĐĂNG NHẬP ĐỂ BÌNH LUẬN</h5></div>
+                
                 <div class="contextl"> <button class="btn btn-outline-primary btn-sm"><a class="log" href="index.php?act=dangnhap">Đăng nhập</a></button></div>
     <div >
     <p class="contextrr" >Chưa có tài khoản ?</p>
